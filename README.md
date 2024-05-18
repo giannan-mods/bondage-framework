@@ -11,7 +11,7 @@ Most of them centered around a theme, but always optional.
 
 ## Install Instructions
 
-1. Download the mod from this [link](https://github.com/giannan-mods/bondage-framework/archive/refs/heads/main.zip) for the latest changes.
+1. Download the mod from this [link](https://github.com/giannan-mods/bondage-framework/archive/refs/heads/master.zip) for the latest changes.
 2. Unzip and drop the folder into the `mods` folder.
 3. Launch the game and activate the mod.
 
