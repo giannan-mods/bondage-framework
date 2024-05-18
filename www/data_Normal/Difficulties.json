@@ -30,7 +30,7 @@
     "switches": [0]
 }, {
     "name": "Hard",
-    "mhp": 150,
+    "mhp": 125,
     "mmp": 100,
     "atk": 100,
     "def": 100,
