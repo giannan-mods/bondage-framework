@@ -1,0 +1,7 @@
+{
+  "switches": [{
+    "id": 2505,
+    "value": true,
+    "description": "Make some class-specific skills inherent to the party member."
+  }]
+}

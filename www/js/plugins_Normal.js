@@ -1,0 +1,2 @@
+var $plugins =
+[{"name":"SSG_DifficultySetting","status":true,"description":"Add difficulty feature on your game.\r\n<SSG_DifficultySetting>","parameters":{"Show Difficulty Option":"true","Default Difficulty":"1"},"position":93},{"name":"StateOverlay","status":true,"description":"Use custom overlays based on actor states","parameters":{},"position":94},{"name":"StateText","status":true,"description":"Change dialog text based on actor states","parameters":{},"position":95}]
