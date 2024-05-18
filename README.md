@@ -6,7 +6,7 @@ Most of them centered around a theme, but always optional.
 ## Features
 
 1. Difficulty options: Safely change the difficulty at any time from the game's options. It won't break your save.
-2. Hell mode: New custom difficulty that is similar to Hard mode, but with stronger enemies. It also restricts fast travel, and makes ambushes more dangerous.
+2. Hell mode: Hard mode but with much stronger enemies, restricted fast travel, and more dangerous ambushes.
 3. Inherent skills: Makes some class-specific skills inherent to the party member. This is toggled on by default, but can be disabled in the `config.json` file.
 
 ## Install Instructions
