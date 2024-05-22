@@ -7,7 +7,8 @@ Most of them centered around a theme, but always optional.
 
 1. Difficulty options: Safely change the difficulty at any time from the game's options. It won't break your save.
 2. Hell mode: Hard mode but with much stronger enemies, restricted fast travel, and more dangerous ambushes.
-3. Inherent skills: Makes some class-specific skills inherent to the party member. This is toggled on by default, but can be disabled in the `config.json` file.
+3. Bondage: New system that locks equipment in place. The Denial Belt, Slave Collar, and Cursed Necklace are now pieces of equipment that enemies may attempt to lock onto party members. They can be removed by struggling or using a Lockpick or Holy Water.
+4. Inherent skills: Makes some class-specific skills inherent to the party member. This is toggled on by default, but can be disabled in the `config.json` file.
 
 ## Install Instructions
 
