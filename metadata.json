@@ -1,9 +1,13 @@
 {
 	"name": "Bondage Framework",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"dependencies": [],
 	"incompatible": [],
-	"overrides": {},
+	"overrides": {
+		"data_Normal/CommonEvents.json": [95],
+		"data_Normal/Items.json": [15, 43, 97],
+		"data_Normal/Skills.json": [27, 304, 626, 642, 643, 644, 645, 646, 647, 648, 649, 954, 955, 1118]
+	},
 	"randomize": false,
-	"track": false
+	"track": true
 }

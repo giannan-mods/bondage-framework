@@ -3,5 +3,9 @@
     "id": 2505,
     "value": true,
     "description": "Make some class-specific skills inherent to the party member."
+  }, {
+    "id": 2506,
+    "value": true,
+    "description": "Toggle afflictions, a new type of skill passive for persistent negative effects."
   }]
 }
