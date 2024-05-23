@@ -1,11 +1,19 @@
 {
   "switches": [{
     "id": 2505,
-    "value": true,
+    "value": false,
     "description": "Make some class-specific skills inherent to the party member."
   }, {
     "id": 2506,
-    "value": true,
+    "value": false,
     "description": "Toggle afflictions, a new type of skill passive for persistent negative effects."
+  }, {
+    "id": 2514,
+    "value": false,
+    "description": "Adds the Assist skill, which allows one to attempt to remove a restraint from a party member."
+  }, {
+    "id": 2515,
+    "value": false,
+    "description": "Toggle Disheartened, a new status effect that makes struggling out of restraints more difficult."
   }]
 }

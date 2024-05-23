@@ -115,4 +115,19 @@ BondageFramework.Commands = BondageFramework.Commands || {};
         if (command === 'RemoveLocked') $.Commands.removeLocked(args);
     };
 
+    Sprite_Damage.prototype.setup = function(target) {
+        this._result = target.shiftDamagePopup();
+        var result = this._result;
+        if (result.missed || result.evaded) {
+            this.createMiss();
+        } else if (result.hpAffected && result.hpDamage != null) {
+            this.createDigits(0, result.hpDamage);
+        } else if (target.isAlive() && result.mpDamage != null && result.mpDamage !== 0) {
+            this.createDigits(2, result.mpDamage);
+        }
+        if (result.critical) {
+            this.setupCriticalEffect();
+        }
+    };
+
 })(BondageFramework);
