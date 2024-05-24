@@ -105,7 +105,7 @@ BondageFramework.Commands = BondageFramework.Commands || {};
 
         if (skill.stypeId === 0) return value;
         if (muted && skill.stypeId === 1) return false;
-        if (bound && skill.stypeId !== 5 && skill.stypeId !== 10) return false;
+        if (bound && skill.stypeId !== 1 && skill.stypeId !== 5 && skill.stypeId !== 10) return false;
         return value;
     };
 
@@ -128,6 +128,24 @@ BondageFramework.Commands = BondageFramework.Commands || {};
         if (result.critical) {
             this.setupCriticalEffect();
         }
+    };
+
+    $.Holders.setHp = Game_BattlerBase.prototype.setHp;
+    Game_BattlerBase.prototype.setHp = function(hp) {
+        if (hp == null || isNaN(hp)) return;
+        $.Holders.setHp.call(this, hp);
+    };
+
+    $.Holders.setMp = Game_BattlerBase.prototype.setMp;
+    Game_BattlerBase.prototype.setMp = function(mp) {
+        if (mp == null || isNaN(mp)) return;
+        $.Holders.setMp.call(this, mp);
+    };
+
+    $.Holders.setTp = Game_BattlerBase.prototype.setTp;
+    Game_BattlerBase.prototype.setTp = function(tp) {
+        if (tp == null || isNaN(tp)) return;
+        $.Holders.setTp.call(this, tp);
     };
 
 })(BondageFramework);

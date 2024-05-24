@@ -15,5 +15,9 @@
     "id": 2515,
     "value": false,
     "description": "Toggle Disheartened, a new status effect that makes struggling out of restraints more difficult."
+  }, {
+    "id": 2516,
+    "value": false,
+    "description": "Toggle enemies such as the Lewd Bandit or the Forest Witch having skills that bind party members."
   }]
 }
