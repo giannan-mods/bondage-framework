@@ -1,6 +1,6 @@
 /*:
  * @author 1d51
- * @version 0.0.1
+ * @version 0.0.2
  * @plugindesc Custom code for the Bondage Framework mod.
  */
 
@@ -95,6 +95,13 @@ BondageFramework.Commands = BondageFramework.Commands || {};
             }
         }
     };
+
+    $.Holders.meetsSkillConditions = Game_BattlerBase.prototype.meetsSkillConditions;
+    Game_BattlerBase.prototype.meetsSkillConditions = function(skill) {
+        const locked = this.isStateAffected(666);
+        if (locked && skill.id === 305) return true;
+        return $.Holders.meetsSkillConditions.call(this, skill);
+    }
 
     $.Holders.meetsSkillConditionsEval = Game_BattlerBase.prototype.meetsSkillConditionsEval;
     Game_BattlerBase.prototype.meetsSkillConditionsEval = function (skill) {
