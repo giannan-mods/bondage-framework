@@ -270,7 +270,7 @@ var SSG_Heartbreak = SSG_Heartbreak || {};
 	 */
 	SSG_Heartbreak.loadDifficulty = function() {
 		const xhr = new XMLHttpRequest();
-		const url = 'data/Difficulties.json';
+		const url = 'data_Normal/Difficulties.json';
 		xhr.open('GET', url);
 		xhr.overrideMimeType('application/json');
 		xhr.onload = function() {
