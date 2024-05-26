@@ -32,7 +32,7 @@ Most of them centered around a theme, but always optional.
 - Modders can now have their skills do 0 damage without causing issues with the game. This is useful for when one wants to run some code on skill execution, but not have a 0 damage popup appear.
 
 ## Configuration
-The framework comes with a file named `config.json` that players can edit to enable or disable certain aspects of the game. To enable one, change the "value" to **true**. To disable it, change it to **false**. Anything else may have unexpected consequences, so be careful! DO NOT modify fields other than "value". Here's a list of the currently configurable options:
+The framework comes with a file named `config.json` that players can edit to enable or disable certain aspects of the game. To enable one, change the "value" to **true**. To disable it, change it to **false**. Anything else may have unexpected consequences, so be careful! DO NOT modify fields other than "value". Here are the current options:
 
 - Make some class-specific skills inherent to the party member.
 - Toggle afflictions, a new type of skill passive for persistent negative effects.
