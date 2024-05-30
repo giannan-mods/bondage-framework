@@ -1,5 +1,209 @@
 {
-	"inputs": [],
+	"inputs": [
+		{
+			"name": "OverCursedNecklace",
+			"mode": "append",
+			"priority": 100,
+			"dxf": [0, 2, 3, 0, 0, 0, 0, 1, 3, 1, 0],
+			"dyf": [0, 4, 0, -2, 1, 0, 0, -4, 0, -3, -2],
+			"dxp": [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+			"dyp": [0, -1, 2, 0, 0, 0, -1, -5, 0, 0, -2],
+			"conditions": [
+				{
+					"inclusive": false,
+					"type": "actor",
+					"id": 1
+				},
+				{
+					"inclusive": false,
+					"type": "actor",
+					"id": 3
+				},
+				{
+					"inclusive": false,
+					"type": "actor",
+					"id": 8
+				},
+				{
+					"inclusive": true,
+					"type": "armor",
+					"id": 18
+				}
+			]
+		},
+		{
+			"name": "OverCursedNecklaceShort",
+			"mode": "append",
+			"priority": 100,
+			"dxf": [0, 0, 3],
+			"dyf": [0, 0, 0],
+			"dxp": [0, 0, 0],
+			"dyp": [0, 0, -2],
+			"conditions": [
+				{
+					"inclusive": true,
+					"type": "actor",
+					"id": 3
+				},
+				{
+					"inclusive": true,
+					"type": "armor",
+					"id": 18
+				}
+			]
+		},
+		{
+			"name": "OverSlaveCollarOff",
+			"mode": "append",
+			"priority": 100,
+			"dxf": [0, 2, 3, 0, 0, 0, 0, 1, 3, 1, 0],
+			"dyf": [0, 4, 0, -2, -1, 0, 0, -2, -2, -3, -1],
+			"dxp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+			"dyp": [0, 0, 2, 0, 0, 0, 1, 0, 0, 0, 2],
+			"conditions": [
+				{
+					"inclusive": false,
+					"type": "contains",
+					"text": "Col1"
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 25
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 173
+				},
+				{
+					"inclusive": false,
+					"type": "actor",
+					"id": 10
+				},
+				{
+					"inclusive": true,
+					"type": "armor",
+					"id": 352
+				}
+			]
+		},
+		{
+			"name": "OverSlaveCollarOn",
+			"mode": "append",
+			"priority": 100,
+			"dxf": [0, 2, 3, 0, 0, 0, 0, 1, 3, 1, 0],
+			"dyf": [0, 4, 0, -2, -1, 0, 0, -2, -2, -3, -1],
+			"dxp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+			"dyp": [0, 0, 2, 0, 0, 0, 1, 0, 0, 0, 2],
+			"conditions": [
+				{
+					"inclusive": false,
+					"type": "contains",
+					"text": "Col2"
+				},
+				{
+					"inclusive": true,
+					"type": "state",
+					"id": 25
+				},
+				{
+					"inclusive": false,
+					"type": "actor",
+					"id": 10
+				},
+				{
+					"inclusive": true,
+					"type": "armor",
+					"id": 352
+				}
+			]
+		},
+		{
+			"name": "OverSlaveCollarRed",
+			"mode": "append",
+			"priority": 100,
+			"dxf": [0, 2, 3, 0, 0, 0, 0, 1, 3, 1, 0],
+			"dyf": [0, 4, 0, -2, -1, 0, 0, -2, -2, -3, -1],
+			"dxp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+			"dyp": [0, 0, 2, 0, 0, 0, 1, 0, 0, 0, 2],
+			"conditions": [
+				{
+					"inclusive": false,
+					"type": "contains",
+					"text": "Cap"
+				},
+				{
+					"inclusive": true,
+					"type": "state",
+					"id": 173
+				},
+				{
+					"inclusive": false,
+					"type": "actor",
+					"id": 10
+				},
+				{
+					"inclusive": true,
+					"type": "armor",
+					"id": 352
+				}
+			]
+		},
+		{
+			"name": "OverLeatherCollar",
+			"mode": "append",
+			"priority": 100,
+			"dxf": [0, 2, 3, 0, 0, 0, 0, 1, 3, 1, 0],
+			"dyf": [0, 4, 0, -2, -1, 0, 0, -2, -2, -3, 0],
+			"dxp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+			"dyp": [0, -1, 2, 0, 0, 0, 0, 0, 0, 0, 2],
+			"conditions": [
+				{
+					"inclusive": false,
+					"type": "actor",
+					"id": 10
+				},
+				{
+					"inclusive": true,
+					"type": "armor",
+					"id": 354
+				}
+			]
+		},
+		{
+			"name": "OverHarnessGag",
+			"mode": "append",
+			"priority": 100,
+			"dxf": [0, 2, 3, 0, 0, 0, 0, 0, 3, 1, 0],
+			"dyf": [0, 4, 0, -2, -1, 0, 0, -2, -2, -3, -1],
+			"dxp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+			"dyp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+			"conditions": [
+				{
+					"inclusive": true,
+					"type": "armor",
+					"id": 356
+				}
+			]
+		},
+		{
+			"name": "OverBlindfold",
+			"mode": "append",
+			"priority": 50,
+			"dxf": [0, 2, 3, 0, 0, 0, 0, 0, 3, 1, 0],
+			"dyf": [0, 7, 0, -2, -1, 0, 0, 0, -2, -3, 0],
+			"dxp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+			"dyp": [0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 2],
+			"conditions": [
+				{
+					"inclusive": true,
+					"type": "armor",
+					"id": 357
+				}
+			]
+		}
+	],
 	"factors": {
 		"Lilina": 1,
 		"Sinian": 2,
