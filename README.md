@@ -57,3 +57,5 @@ Game Creator: [Vhiel](https://twitter.com/shvhiel)
 Mod Author: 1d51
 
 Disheartened images: exi1987
+
+Harness Gag images: borpie
