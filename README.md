@@ -19,7 +19,7 @@ Most of them centered around a theme, but always optional.
 
 - New equipment has been added that applies the states mentioned above, and skills given to some enemies to decorate your party members with.
 
-- Most of the new equipment will be shown on images when worn, independently of the current state of the wearer.
+- Most of the new equipment will be shown on images when worn, independently of the state of the wearer.
 
 3. Afflictions: A skill type dedicated to long-lasting (maybe even permanent) negative status effects. Right now, there's nothing in it, but more and more passives will be added to the framework with time, so other mods can assign them based on their own criteria.
 
