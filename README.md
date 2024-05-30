@@ -27,7 +27,7 @@ Most of them centered around a theme, but always optional.
 
 - Some class-specific skills are made inherent to the party member. So for example, Yterre can still manage her maids while being a Succubus.
 
-- Mindbreak can now stack, and each stack required a Mind Cleanser to be removed. This does not really have any effect on the base game, but it does allow modders to create more punishing consequences, using this state.
+- Mindbreak can now stack, and each stack requires a Mind Cleanser to be removed. This does not really have any effect on the base game, but it does allow modders to create more punishing consequences, using this state.
 
 - The Cursed status effect adds a new Curse skill to the ones affected, so they can share their fate with others. A small thing that seemed appropriate to me, from a lore point of view.
 
