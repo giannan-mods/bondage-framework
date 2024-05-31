@@ -1,6 +1,6 @@
 /*:
  * @author 1d51
- * @version 0.0.4
+ * @version 0.0.5
  * @plugindesc Custom code for the Bondage Framework mod.
  */
 
@@ -153,6 +153,161 @@ BondageFramework.Commands = BondageFramework.Commands || {};
     Game_BattlerBase.prototype.setTp = function(tp) {
         if (tp == null || isNaN(tp)) return;
         $.Holders.setTp.call(this, tp);
+    };
+
+    $.Holders.executeDamage = Game_Action.prototype.executeDamage;
+    Game_Action.prototype.executeDamage = function(target, value) {
+        $.Holders.executeDamage.call(this, target, value);
+        if (!$gameSwitches.value(2506)) return;
+        if (!$gameParty.inBattle()) return;
+
+        if (this.isSkill() && this.isHpEffect()) {
+            // Sadist: Become Aroused when causing damage.
+            if (this.subject().isActor() && this.subject().hasSkill(1227) && value > 0) {
+                if (this.subject().isAlive()) {
+                    if (Math.random() < 0.1) this.subject().addState(13);
+                    if (Math.random() < 0.1) this.subject().addState(13);
+                }
+            }
+            // Masochist: Become Aroused when taking damage.
+            if (target.isActor() && target.hasSkill(1228) && value > 0) {
+                if (target.isAlive()) {
+                    if (Math.random() < 0.1) target.addState(13);
+                    if (Math.random() < 0.1) target.addState(13);
+                }
+            }
+        }
+
+        if (this.isSkill() && this.item().stypeId === 2) {
+            // Servile: Become Aroused when targeting an Ally with a Naughty skill.
+            if (target.isActor() && this.subject().isActor()) {
+                if (this.subject().hasSkill(1229) && this.subject().isAlive()) {
+                    if (Math.random() < 0.1) this.subject().addState(13);
+                    if (Math.random() < 0.1) this.subject().addState(13);
+                }
+            }
+            // Voyeur: Become Aroused when another party member is targeted by a Naughty skill.
+            if (target.isActor()) {
+                const members = $gameParty.aliveMembers();
+                for (let i = 0; i < members.length; i++) {
+                    if (members[i].actorId() !== target.actorId() && members[i].hasSkill(1230)) {
+                        if (Math.random() < 0.1) members[i].addState(13);
+                        if (Math.random() < 0.1) members[i].addState(13);
+                    }
+                }
+            }
+            // Cuckold: Become Aroused when someone else targets your wife with a Naughty skill.
+            if ($gameSwitches.value(2579) && (target.isActor() || this.subject().isActor())) {
+                if ($gameParty.aliveMembers().some(actor => actor.actorId() === 1)) {
+                    if (target.isActor() && target.actorId() === 2 && $gameSwitches.value(1561)) {
+                        if (!this.subject().isActor() || this.subject().actorId() !== 1) {
+                            if (Math.random() < 0.1) $gameActors.actor(1).addState(13);
+                            if (Math.random() < 0.1) $gameActors.actor(1).addState(13);
+                        }
+                    } else if (target.isActor() && target.actorId() === 3 && $gameSwitches.value(1562)) {
+                        if (!this.subject().isActor() || this.subject().actorId() !== 1) {
+                            if (Math.random() < 0.1) $gameActors.actor(1).addState(13);
+                            if (Math.random() < 0.1) $gameActors.actor(1).addState(13);
+                        }
+                    } else if (target.isActor() && target.actorId() === 4 && $gameSwitches.value(1563)) {
+                        if (!this.subject().isActor() || this.subject().actorId() !== 1) {
+                            if (Math.random() < 0.1) $gameActors.actor(1).addState(13);
+                            if (Math.random() < 0.1) $gameActors.actor(1).addState(13);
+                        }
+                    } else if (target.isActor() && target.actorId() === 5 && $gameSwitches.value(1564)) {
+                        if (!this.subject().isActor() || this.subject().actorId() !== 1) {
+                            if (Math.random() < 0.1) $gameActors.actor(1).addState(13);
+                            if (Math.random() < 0.1) $gameActors.actor(1).addState(13);
+                        }
+                    } else if (target.isActor() && target.actorId() === 6 && $gameSwitches.value(1565)) {
+                        if (!this.subject().isActor() || this.subject().actorId() !== 1) {
+                            if (Math.random() < 0.1) $gameActors.actor(1).addState(13);
+                            if (Math.random() < 0.1) $gameActors.actor(1).addState(13);
+                        }
+                    } else if (target.isActor() && target.actorId() === 7 && $gameSwitches.value(1566)) {
+                        if (!this.subject().isActor() || this.subject().actorId() !== 1) {
+                            if (Math.random() < 0.1) $gameActors.actor(1).addState(13);
+                            if (Math.random() < 0.1) $gameActors.actor(1).addState(13);
+                        }
+                    } else if (target.isActor() && target.actorId() === 8 && $gameSwitches.value(1567)) {
+                        if (!this.subject().isActor() || this.subject().actorId() !== 1) {
+                            if (Math.random() < 0.1) $gameActors.actor(1).addState(13);
+                            if (Math.random() < 0.1) $gameActors.actor(1).addState(13);
+                        }
+                    } else if (target.isActor() && target.actorId() === 9 && $gameSwitches.value(1568)) {
+                        if (!this.subject().isActor() || this.subject().actorId() !== 1) {
+                            if (Math.random() < 0.1) $gameActors.actor(1).addState(13);
+                            if (Math.random() < 0.1) $gameActors.actor(1).addState(13);
+                        }
+                    } else if (target.isActor() && target.actorId() === 10 && $gameSwitches.value(1568)) {
+                        if (!this.subject().isActor() || this.subject().actorId() !== 1) {
+                            if (Math.random() < 0.1) $gameActors.actor(1).addState(13);
+                            if (Math.random() < 0.1) $gameActors.actor(1).addState(13);
+                        }
+                    } else if (target.isActor() && target.actorId() === 11 && $gameSwitches.value(1570)) {
+                        if (!this.subject().isActor() || this.subject().actorId() !== 1) {
+                            if (Math.random() < 0.1) $gameActors.actor(1).addState(13);
+                            if (Math.random() < 0.1) $gameActors.actor(1).addState(13);
+                        }
+                    } else if (target.isActor() && target.actorId() === 1) {
+                        const members = $gameParty.aliveMembers();
+                        for (let i = 0; i < members.length; i++) {
+                            if (members[i].actorId() === 2 && $gameSwitches.value(1561)) {
+                                if (!this.subject().isActor() || this.subject().actorId() !== 2) {
+                                    if (Math.random() < 0.1) $gameActors.actor(2).addState(13);
+                                    if (Math.random() < 0.1) $gameActors.actor(2).addState(13);
+                                }
+                            } else if (members[i].actorId() === 3 && $gameSwitches.value(1562)) {
+                                if (!this.subject().isActor() || this.subject().actorId() !== 3) {
+                                    if (Math.random() < 0.1) $gameActors.actor(3).addState(13);
+                                    if (Math.random() < 0.1) $gameActors.actor(3).addState(13);
+                                }
+                            } else if (members[i].actorId() === 4 && $gameSwitches.value(1563)) {
+                                if (!this.subject().isActor() || this.subject().actorId() !== 4) {
+                                    if (Math.random() < 0.1) $gameActors.actor(4).addState(13);
+                                    if (Math.random() < 0.1) $gameActors.actor(4).addState(13);
+                                }
+                            } else if (members[i].actorId() === 5 && $gameSwitches.value(1564)) {
+                                if (!this.subject().isActor() || this.subject().actorId() !== 5) {
+                                    if (Math.random() < 0.1) $gameActors.actor(5).addState(13);
+                                    if (Math.random() < 0.1) $gameActors.actor(5).addState(13);
+                                }
+                            } else if (members[i].actorId() === 6 && $gameSwitches.value(1565)) {
+                                if (!this.subject().isActor() || this.subject().actorId() !== 6) {
+                                    if (Math.random() < 0.1) $gameActors.actor(6).addState(13);
+                                    if (Math.random() < 0.1) $gameActors.actor(6).addState(13);
+                                }
+                            } else if (members[i].actorId() === 7 && $gameSwitches.value(1566)) {
+                                if (!this.subject().isActor() || this.subject().actorId() !== 7) {
+                                    if (Math.random() < 0.1) $gameActors.actor(7).addState(13);
+                                    if (Math.random() < 0.1) $gameActors.actor(7).addState(13);
+                                }
+                            } else if (members[i].actorId() === 8 && $gameSwitches.value(1567)) {
+                                if (!this.subject().isActor() || this.subject().actorId() !== 8) {
+                                    if (Math.random() < 0.1) $gameActors.actor(8).addState(13);
+                                    if (Math.random() < 0.1) $gameActors.actor(8).addState(13);
+                                }
+                            } else if (members[i].actorId() === 9 && $gameSwitches.value(1568)) {
+                                if (!this.subject().isActor() || this.subject().actorId() !== 9) {
+                                    if (Math.random() < 0.1) $gameActors.actor(9).addState(13);
+                                    if (Math.random() < 0.1) $gameActors.actor(9).addState(13);
+                                }
+                            } else if (members[i].actorId() === 10 && $gameSwitches.value(1568)) {
+                                if (!this.subject().isActor() || this.subject().actorId() !== 10) {
+                                    if (Math.random() < 0.1) $gameActors.actor(10).addState(13);
+                                    if (Math.random() < 0.1) $gameActors.actor(10).addState(13);
+                                }
+                            } else if (members[i].actorId() === 11 && $gameSwitches.value(1570)) {
+                                if (!this.subject().isActor() || this.subject().actorId() !== 11) {
+                                    if (Math.random() < 0.1) $gameActors.actor(11).addState(13);
+                                    if (Math.random() < 0.1) $gameActors.actor(11).addState(13);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     };
 
 })(BondageFramework);

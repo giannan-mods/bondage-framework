@@ -8,6 +8,10 @@
     "value": false,
     "description": "Toggle afflictions, a new type of skill passive for persistent negative effects."
   }, {
+    "id": 2518,
+    "value": false,
+    "description": "Make it so some afflictions can be obtained passively, just by being exposed to certain situations."
+  }, {
     "id": 2514,
     "value": false,
     "description": "Adds the Assist skill, which allows one to attempt to remove a restraint from a party member."
@@ -19,5 +23,9 @@
     "id": 2516,
     "value": false,
     "description": "Toggle enemies such as the Lewd Bandit or the Forest Witch having skills that bind party members."
+  }, {
+    "id": 2517,
+    "value": false,
+    "description": "Toggle enemies such as the Lewd Bandit or the Mountain Barbarian having skills that hold onto party members."
   }]
 }

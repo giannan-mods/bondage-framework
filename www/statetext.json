@@ -1,3 +1,71 @@
 {
-	"inputs": []
+	"inputs": [
+		{
+			"name": "Gagged (A)",
+			"priority": 100,
+			"conditions": [
+				{
+					"inclusive": true,
+					"type": "armor",
+					"id": 356
+				},
+				{
+					"inclusive": true,
+					"type": "random",
+					"value": 0.2
+				}
+			],
+			"replacements": [
+				{
+					"source": "([\\s\\S]*?)(\\.*\\?*!*)$",
+					"target": "MmmmMmmMMmm$2<br>\\}\\lsv[0]$1$2",
+					"modifiers": "",
+					"chance": 1
+				}
+			]
+		},
+		{
+			"name": "Gagged (B)",
+			"priority": 100,
+			"conditions": [
+				{
+					"inclusive": true,
+					"type": "armor",
+					"id": 356
+				},
+				{
+					"inclusive": true,
+					"type": "random",
+					"value": 0.2
+				}
+			],
+			"replacements": [
+				{
+					"source": "([\\s\\S]*?)(\\.*\\?*!*)$",
+					"target": "Mmm mmMm... mmmm$2<br>\\}\\lsv[0]$1$2",
+					"modifiers": "",
+					"chance": 1
+				}
+			]
+		},
+		{
+			"name": "Gagged (C)",
+			"priority": 100,
+			"conditions": [
+				{
+					"inclusive": true,
+					"type": "armor",
+					"id": 356
+				}
+			],
+			"replacements": [
+				{
+					"source": "([\\s\\S]*?)(\\.*\\?*!*)$",
+					"target": "Mmmmm mmm mMmm Mmm$2<br>\\}\\lsv[0]$1$2",
+					"modifiers": "",
+					"chance": 1
+				}
+			]
+		}
+	]
 }

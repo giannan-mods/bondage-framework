@@ -21,7 +21,7 @@ Most of them centered around a theme, but always optional.
 
 - Most of the new equipment will be shown on images when worn, independently of the current state of the wearer.
 
-3. Afflictions: A skill type dedicated to long-lasting (maybe even permanent) negative status effects. Right now, there's nothing in it, but more and more passives will be added to the framework with time, so other mods can assign them based on their own criteria.
+3. Afflictions: A skill type dedicated to long-lasting (maybe even permanent) negative status effects. More and more passives will be added to the framework with time, so other mods can assign them based on their own criteria.
 
 4. Miscellaneous: Several other minor changes have been made to the base game, to make it more flexible for future mods, or just better (in my personal opinion).
 
@@ -38,9 +38,11 @@ The framework comes with a file named `config.json` that players can edit to ena
 
 - Make some class-specific skills inherent to the party member.
 - Toggle afflictions, a new type of skill passive for persistent negative effects.
+- Make it so some afflictions can be obtained passively, just by being exposed to certain situations.
 - Adds the Assist skill, which allows one to attempt to remove a restraint from a party member.
 - Toggle Disheartened, a new status effect that makes struggling out of restraints more difficult.
 - Toggle enemies such as the Lewd Bandit or the Forest Witch having skills that bind party members.
+- Toggle enemies such as the Lewd Bandit or the Mountain Barbarian having skills that hold onto party members.
 
 Right now, all of them are disabled by default, to keep to the vanilla experience as much as possible. Feel free to enable whichever you feel like though.
 
