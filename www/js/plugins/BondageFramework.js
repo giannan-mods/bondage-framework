@@ -34,7 +34,16 @@ BondageFramework.Commands = BondageFramework.Commands || {};
         return actor._stateTurns[658] || 0;
     };
 
-    $.Helpers.shouldRemove = function (base, difficulty, stacks) {
+    $.Helpers.isLockSmith = function () {
+        if ($gameVariables.value(942) === 0) return 0;
+        const actor = $gameActors.actor($gameVariables.value(942));
+        return actor.hasSkill(1218);
+    };
+
+    $.Helpers.shouldRemove = function (difficulty, stacks) {
+        let base = $gameSwitches.value(2510) || $gameSwitches.value(2511) ? 0.5 : 0.25;
+        if ($.Helpers.isLockSmith()) base = base + 0.15;
+
         return $gameSwitches.value(2509) || Math.random() < base * Math.exp(-difficulty * stacks);
     };
 
@@ -73,9 +82,8 @@ BondageFramework.Commands = BondageFramework.Commands || {};
 
         for (let i = 0; i < binding.length; i++) {
             if (binding[i] == null) continue;
-            const base = $gameSwitches.value(2510) || $gameSwitches.value(2511) ? 0.5 : 0.25;
             const difficulty = $.Helpers.getDifficulty(binding[i].note);
-            if ($.Helpers.shouldRemove(base, difficulty, stacks)) {
+            if ($.Helpers.shouldRemove(difficulty, stacks)) {
                 $gameSwitches.setValue(2507, true);
                 target.changeEquip(i, null);
                 break;
@@ -85,9 +93,8 @@ BondageFramework.Commands = BondageFramework.Commands || {};
         if (!$gameSwitches.value(2507)) {
             for (let i = 0; i < other.length; i++) {
                 if (other[i] == null) continue;
-                const base = $gameSwitches.value(2510) || $gameSwitches.value(2511) ? 0.5 : 0.25;
                 const difficulty = $.Helpers.getDifficulty(other[i].note);
-                if ($.Helpers.shouldRemove(base, difficulty, stacks)) {
+                if ($.Helpers.shouldRemove(difficulty, stacks)) {
                     $gameSwitches.setValue(2507, true);
                     target.changeEquip(i, null);
                     break;
@@ -179,6 +186,15 @@ BondageFramework.Commands = BondageFramework.Commands || {};
         }
 
         if (this.isSkill() && this.item().stypeId === 2) {
+            // Honey Trap: Being targeted by Naughty skills causes damage to the enemy.
+            if (target.isActor() && target.hasSkill(1219) && this.subject().isEnemy()) {
+                const damage = Math.ceil(target.luk / 3);
+                this.subject().gainHp(-1 * damage);
+                if (this.subject().isDead()) {
+                    this.subject().performCollapse();
+                }
+            }
+
             // Servile: Become Aroused when targeting an Ally with a Naughty skill.
             if (target.isActor() && this.subject().isActor()) {
                 if (this.subject().hasSkill(1229) && this.subject().isAlive()) {
