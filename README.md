@@ -50,8 +50,8 @@ The mod can be made better with additional images. Any help would be appreciated
 - Status images for Terrified: Simply a fearful face. Eyes wide open, mouth agape, etc.
 
 ## Planned Features
-- Nakedness: Classes that have a body slot can be nude if said slot is empty. Party members that are naked will be Ashamed, unless they have learned Exhibitionist.
-- Hidden Traps: Randomly positioned, barely visible traps in the overworld. Make some base game challenges into actual (randomized) traps.
+- Nakedness: Classes that have a body slot can be nude if said slot is empty.
+- Hidden Traps: Randomly positioned, barely visible traps in the overworld.
 - Affliction Removal: Add a way for Afflictions to be removed, through the Draining Witch in the Woodrot Forest.
 - Additional Afflictions: Such as Nurturer, Suckler, or Exhibitionist.
 - Additional restraints: Such as Straightjackets, Ring Gags, etc.
