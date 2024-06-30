@@ -1,6 +1,6 @@
 /*:
  * @author 1d51
- * @version 0.0.5
+ * @version 0.0.6
  * @plugindesc Custom code for the Bondage Framework mod.
  */
 
@@ -129,6 +129,21 @@ BondageFramework.Commands = BondageFramework.Commands || {};
         if (command === 'RemoveLocked') $.Commands.removeLocked(args);
     };
 
+    /********************* Force action miss based on a switch *********************/
+
+    Game_ActionResult.prototype.isHit = function() {
+        return !$gameSwitches.value(2519) && this.used && !this.missed && !this.evaded;
+    };
+
+    /********************* Disable preemptive and surprise strikes *********************/
+
+    BattleManager.onEncounter = function() {
+        this._preemptive = 0;
+        this._surprise = 0;
+    };
+
+    /********************* Support for skills doing null damage *********************/
+
     Sprite_Damage.prototype.setup = function(target) {
         this._result = target.shiftDamagePopup();
         var result = this._result;
@@ -161,6 +176,8 @@ BondageFramework.Commands = BondageFramework.Commands || {};
         if (tp == null || isNaN(tp)) return;
         $.Holders.setTp.call(this, tp);
     };
+
+    /********************* Custom effects for affliction skills *********************/
 
     $.Holders.executeDamage = Game_Action.prototype.executeDamage;
     Game_Action.prototype.executeDamage = function(target, value) {

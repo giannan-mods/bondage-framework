@@ -28,6 +28,11 @@
 					"inclusive": true,
 					"type": "armor",
 					"id": 18
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 39
 				}
 			]
 		},
@@ -49,6 +54,11 @@
 					"inclusive": true,
 					"type": "armor",
 					"id": 18
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 39
 				}
 			]
 		},
@@ -85,6 +95,11 @@
 					"inclusive": true,
 					"type": "armor",
 					"id": 352
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 39
 				}
 			]
 		},
@@ -116,6 +131,11 @@
 					"inclusive": true,
 					"type": "armor",
 					"id": 352
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 39
 				}
 			]
 		},
@@ -147,6 +167,11 @@
 					"inclusive": true,
 					"type": "armor",
 					"id": 352
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 39
 				}
 			]
 		},
@@ -168,6 +193,11 @@
 					"inclusive": true,
 					"type": "armor",
 					"id": 354
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 39
 				}
 			]
 		},
@@ -184,6 +214,11 @@
 					"inclusive": true,
 					"type": "armor",
 					"id": 356
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 39
 				}
 			]
 		},
@@ -200,6 +235,11 @@
 					"inclusive": true,
 					"type": "armor",
 					"id": 357
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 39
 				}
 			]
 		}

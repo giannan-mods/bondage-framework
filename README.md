@@ -3,17 +3,15 @@ A collection of low-level changes for the game Odyssey of Gianna.
 
 Most of them centered around a theme, but always optional.
 
+Only works on the base game's Normal difficulty!
+
 ## Features
 
-1. Difficulty options: Most of the base games' difficulty changes (those that happen when selecting a difficulty other than Normal from the launcher) have been incorporated into the official Normal difficulty, as a new option in the settings menu. This means there should be no need to play anything other than Normal for most people, as the difficulty can now be changed much more easily in-game.
+1. Difficulty options: Switch difficulties on the fly from the in-game options' menu.
 
-- When playing with the different base game's difficulties, saves may not be transferrable from one to another. Starting a game on one difficulty usually means you're stuck with it. With this reimplementation of the game's difficulty options, that is no longer the case. All saves "belong" to the official Normal difficulty, even when selecting a different one through the in-game settings. Players are now free to change the game's difficulty at any time during their run.
+2. Hell difficulty: Based on Hard, but it adds an extra level of challenge to the game by, for example, forbidding fast travel except from Restoration Points, or making it so ambushes always get a free turn against the party. It also ties to the Bondage feature, making things even harder.
 
-- Difficulties are customizable through a file named `Difficulties.json` inside the `data_Normal` folder. This allows modders to easily add new difficulties to the game. Also, while it's not exactly recommended that normal players mess with it too much, it should be fine to do small modifications, such as increasing or decreasing global experience or gold multipliers, or even enemy stats.
-
-- The Hell difficulty has been added. It's based on Hard, but it adds an extra level of challenge to the game by, for example, forbidding fast travel except from Restoration Points, or making it so ambushes always get a free turn against the party. It also ties to the next feature, making things even harder.
-
-2. Bondage: New system that locks equipment in place. Things such as the Denial Belt, Slave Collar, Cursed Necklace, and Orgasm Belt, are now pieces of bondage that enemies may attempt to lock onto party members. They can be removed by struggling, with the assistance of other party members, or using a Lockpick, or Holy Water, depending on the restraint.
+3. Bondage: New system that locks equipment in place. Things such as the Denial Belt, Slave Collar, Cursed Necklace, and Orgasm Belt, are now pieces of bondage that enemies may attempt to lock onto party members. They can be removed by struggling, with the assistance of other party members, or using a Lockpick, or Holy Water, depending on the restraint.
 
 - New states have been created so that these restraints have an actual effect, gameplay wise, other than locking the equipment slot. **Bound** will prevent one from using most skills, except magical ones. **Muted** will stop one from talking, and casting any spells. **Blinded** greatly reduces accuracy. **Disheartened** will lower your chances of struggling out of a locked piece of equipment. So on and so forth.
 
@@ -25,13 +23,7 @@ Most of them centered around a theme, but always optional.
 
 4. Miscellaneous: Several other minor changes have been made to the base game, to make it more flexible for future mods, or just better (in my personal opinion).
 
-- Some class-specific skills are made inherent to the party member. So for example, Yterre can still manage her maids while being a Succubus.
-
-- Mindbreak can now stack, and each stack requires a Mind Cleanser to be removed. This does not really have any effect on the base game, but it does allow modders to create more punishing consequences, using this state.
-
-- The Cursed status effect adds a new Curse skill to the ones affected, so they can share their fate with others. A small thing that seemed appropriate to me, from a lore point of view.
-
-- Modders can now have their skills do 0 damage without causing issues with the game. This is useful for when one wants to run some code on skill execution, but not have a 0 damage popup appear.
+You can see a complete breakdown of all additions and changes to the game in the `CHANGELOG.md` file.
 
 ## Configuration
 The framework comes with a file named `config.json` that players can edit to enable or disable certain aspects of the game. To enable one, change the "value" to **true**. To disable it, change it to **false**. Anything else may have unexpected consequences, so be careful! DO NOT modify fields other than "value". Here are the current options:
@@ -51,6 +43,24 @@ Right now, all of them are disabled by default, to keep to the vanilla experienc
 1. Download the mod from this [link](https://github.com/giannan-mods/bondage-framework/archive/refs/heads/master.zip) for the latest changes.
 2. Unzip and drop the folder into the `mods` folder.
 3. Launch the game and activate the mod.
+
+## Contributing
+The mod can be made better with additional images. Any help would be appreciated!
+
+- Status images for Ashamed: Both for when naked (covering herself) and clothed (just generally abashed).
+- Status images for Bound: Simply both arms behind their back, images for when naked, and clothed.
+- Status images for Muted: Mouth closed, and an angry or annoyed expression, looking at their mouth.
+- Status images for Blinded: Arms forward, trying to not trip and fall. Both naked and clothed.
+- Status images for Suffocating: Bluish face, eyes rolled up, etc. Nothing too extreme though.
+- Status images for Disheartened: Revisit the images currently in use, as they might not be appropriate.
+- Status images for Terrified: Simply a fearful face. Eyes wide open, mouth agape, etc.
+
+## Planned Features
+- Nakedness: Classes that have a body slot can be nude if said slot is empty. Party members that are naked will be Ashamed, unless they have learned Exhibitionist.
+- Hidden Traps: Randomly positioned, barely visible traps in the overworld. Make some base game challenges into actual (randomized) traps.
+- Affliction Removal: Add a way for Afflictions to be removed, through the Draining Witch in the Woodrot Forest.
+- Additional Afflictions: Such as Nurturer, Suckler, or Exhibitionist.
+- Additional restraints: Such as Straightjackets, Ring Gags, etc.
 
 ## Credits
 
