@@ -13,15 +13,9 @@ Only works on the base game's Normal difficulty!
 
 3. Bondage: New system that locks equipment in place. Things such as the Denial Belt, Slave Collar, Cursed Necklace, and Orgasm Belt, are now pieces of bondage that enemies may attempt to lock onto party members. They can be removed by struggling, with the assistance of other party members, or using a Lockpick, or Holy Water, depending on the restraint.
 
-- New states have been created so that these restraints have an actual effect, gameplay wise, other than locking the equipment slot. **Bound** will prevent one from using most skills, except magical ones. **Muted** will stop one from talking, and casting any spells. **Blinded** greatly reduces accuracy. **Disheartened** will lower your chances of struggling out of a locked piece of equipment. So on and so forth.
+4. Afflictions: A skill type dedicated to long-lasting (maybe even permanent) negative status effects. More and more passives will be added to the framework with time, so other mods can assign them based on their own criteria.
 
-- New equipment has been added that applies the states mentioned above, and skills given to some enemies to decorate your party members with.
-
-- Most of the new equipment will be shown on images when worn, independently of the state of the wearer.
-
-3. Afflictions: A skill type dedicated to long-lasting (maybe even permanent) negative status effects. More and more passives will be added to the framework with time, so other mods can assign them based on their own criteria.
-
-4. Miscellaneous: Several other minor changes have been made to the base game, to make it more flexible for future mods, or just better (in my personal opinion).
+5. Miscellaneous: Several other minor changes have been made to the base game, to make it more flexible for future mods, or just better (in my personal opinion).
 
 You can see a complete breakdown of all additions and changes to the game in the `CHANGELOG.md` file.
 
