@@ -26,14 +26,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Overlays: Certain pieces of equipment will be shown on top of the usual character images. For example, if a Horny Lilina is wearing a Slave Collar, she will be shown in her Horny pose, as well as wearing the collar.
 - Bondage: New system that locks equipment in place. Things such as the Denial Belt, Slave Collar, Cursed Necklace, and Orgasm Belt, are now pieces of bondage that enemies may attempt to lock onto party members. They can be removed by struggling, with the assistance of other party members, or using a Lockpick, or Holy Water, depending on the restraint.
 - Difficulty options: Most of the base games' difficulty changes (those that happen when selecting a difficulty other than Normal from the launcher) have been incorporated into the official Normal difficulty, as a new option in the settings menu. This means there should be no need to play anything other than Normal for most people, as the difficulty can now be changed much more easily in-game.
-    - When playing with the different base game's difficulties, saves may not be transferrable from one to another. Starting a game on one difficulty usually means you're stuck with it. With this reimplementation of the game's difficulty options, that is no longer the case. All saves "belong" to the official Normal difficulty, even when selecting a different one through the in-game settings. Players are now free to change the game's difficulty at any time during their run.
+    - When playing with the different base game's difficulties, saves may not be transferable from one to another. Starting a game on one difficulty usually means you're stuck with it. With this reimplementation of the game's difficulty options, that is no longer the case. All saves "belong" to the official Normal difficulty, even when selecting a different one through the in-game settings. Players are now free to change the game's difficulty at any time during their run.
     - Difficulties are customizable through a file named Difficulties.json inside the data_Normal folder. This allows modders to easily add new difficulties to the game. Also, while it's not exactly recommended that normal players mess with it too much, it should be fine to do small modifications, such as increasing or decreasing global experience or gold multipliers, or even enemy stats.
-    - The Hard difficulty is not an exact copy of the base game's, but it's close enough. For example, instead of adjusting some specific enemy's stats, it simply increases all enemies health by 25%.
+    - The Hard difficulty is not an exact copy of the base game's, but it's close enough. For example, instead of adjusting some specific enemies' stats, it simply increases all enemies' health by 25%.
 
 - Hell difficulty: Based on Hard, but it adds an extra level of challenge to the game.
     - Forbids fast travel except from Restoration Points.
     - Ambushes always get a free turn against the party.
+    - Collar Slave orcs will not immediately let go.
     - Most enemy stats are increased by 50%.
+    - Locked equipment is harder to remove.
 
 - Toggle to make Yterre's Designate Maid and Fire Maid skills, and Samona's Master's Strings skill, not be tied to their base class.
 - Toggle to enable or disable Afflictions, a new type of skill passive for persistent negative effects.
