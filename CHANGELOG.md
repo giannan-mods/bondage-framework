@@ -5,6 +5,29 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.7] - 2024-07-04
+
+### Added
+
+- Restraining equipment now has a proper description, prices, and removal difficulty.
+- The very first map in the Gianna Forest may have snares lying around, if enabled.
+- Updated the design of the Harness Gag to use the same gag as the new Ball Gag.
+
+- Toggle to enable or disable finding traps in the overworld, and randomizing existing ones.
+
+- New status effects:
+  - Ensnared: Start battle hanging from your feet, unable to move.
+
+- New equipment:
+  - Ball Gag: Mutes the wearer.
+
+### Fixed
+
+- Resolved some issues with how the Bondage Lover affliction was implemented.
+- Equipment that applies Bound will properly have to be removed first when using Struggle.
+- Bondage overlays will not be shown when a character is affected my Entangled.
+- Update the Cursed Bandit intro image to show her with a Cursed Collar.
+
 ## [0.0.6] - 2024-06-30
 
 ### Added
@@ -87,6 +110,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - Harness Gag: Mutes the wearer. 
     - Blindfold: Blinds the wearer.
 
+- Cursed Bandits will be shown wearing a Cursed Collar.
 - Jyla can now learn the Unshackled skill.
 
 ### Changed

@@ -27,5 +27,9 @@
     "id": 2517,
     "value": false,
     "description": "Toggle enemies such as the Lewd Bandit or the Mountain Barbarian having skills that hold onto party members."
+  }, {
+    "id": 2522,
+    "value": false,
+    "description": "Toggle random traps appearing in the overworld. Also makes existing base game traps random"
   }]
 }

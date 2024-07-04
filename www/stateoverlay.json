@@ -33,6 +33,11 @@
 					"inclusive": false,
 					"type": "state",
 					"id": 39
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 46
 				}
 			]
 		},
@@ -59,6 +64,11 @@
 					"inclusive": false,
 					"type": "state",
 					"id": 39
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 46
 				}
 			]
 		},
@@ -100,6 +110,11 @@
 					"inclusive": false,
 					"type": "state",
 					"id": 39
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 46
 				}
 			]
 		},
@@ -136,6 +151,11 @@
 					"inclusive": false,
 					"type": "state",
 					"id": 39
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 46
 				}
 			]
 		},
@@ -172,6 +192,11 @@
 					"inclusive": false,
 					"type": "state",
 					"id": 39
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 46
 				}
 			]
 		},
@@ -198,6 +223,11 @@
 					"inclusive": false,
 					"type": "state",
 					"id": 39
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 46
 				}
 			]
 		},
@@ -219,6 +249,11 @@
 					"inclusive": false,
 					"type": "state",
 					"id": 39
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 46
 				}
 			]
 		},
@@ -240,6 +275,36 @@
 					"inclusive": false,
 					"type": "state",
 					"id": 39
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 46
+				}
+			]
+		}, {
+			"name": "OverBallGag",
+			"mode": "append",
+			"priority": 100,
+			"dxf": [0, 2, 3, 0, 0, 0, 0, 0, 3, 1, 0],
+			"dyf": [0, 4, 0, -2, -1, 0, 0, -2, -2, -3, -1],
+			"dxp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+			"dyp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+			"conditions": [
+				{
+					"inclusive": true,
+					"type": "armor",
+					"id": 358
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 39
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 46
 				}
 			]
 		}

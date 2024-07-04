@@ -1,6 +1,6 @@
 /*:
  * @author 1d51
- * @version 0.0.6
+ * @version 0.0.7
  * @plugindesc Custom code for the Bondage Framework mod.
  */
 
@@ -34,8 +34,13 @@ BondageFramework.Commands = BondageFramework.Commands || {};
         return actor._stateTurns[658] || 0;
     };
 
+    $.Helpers.isActing = function (actor) {
+        if ($gameVariables.value(942) === 0) return false;
+        return $gameVariables.value(942) === actor.actorId();
+    };
+
     $.Helpers.isLockSmith = function () {
-        if ($gameVariables.value(942) === 0) return 0;
+        if ($gameVariables.value(942) === 0) return false;
         const actor = $gameActors.actor($gameVariables.value(942));
         return actor.hasSkill(1218);
     };
@@ -50,6 +55,18 @@ BondageFramework.Commands = BondageFramework.Commands || {};
     $.Commands.removeLocked = function (args) {
         const target = $gameActors.actor($gameVariables.value(943));
         const stacks = $.Helpers.getStacks();
+
+        if (target.isStateAffected(672)) {
+            $gameSwitches.setValue(2508, false);
+            if ($.Helpers.shouldRemove(null, stacks)) {
+                $gameSwitches.setValue(2507, true);
+                target.removeState(672);
+                return;
+            }
+            if ($.Helpers.isActing(target)) {
+                return;
+            }
+        }
 
         let equips = target.equips().map((equip) => {
             return equip != null && (equip.atypeId === 60 || equip.atypeId === 61) ? equip : null
@@ -88,6 +105,9 @@ BondageFramework.Commands = BondageFramework.Commands || {};
                 target.changeEquip(i, null);
                 break;
             }
+            if ($.Helpers.isActing(target)) {
+                return;
+            }
         }
 
         if (!$gameSwitches.value(2507)) {
@@ -106,7 +126,8 @@ BondageFramework.Commands = BondageFramework.Commands || {};
     $.Holders.meetsSkillConditions = Game_BattlerBase.prototype.meetsSkillConditions;
     Game_BattlerBase.prototype.meetsSkillConditions = function(skill) {
         const locked = this.isStateAffected(666);
-        if (locked && skill.id === 305) return true;
+        const ensnared = this.isStateAffected(672);
+        if ((locked || ensnared) && skill.id === 305) return true;
         return $.Holders.meetsSkillConditions.call(this, skill);
     }
 
@@ -175,6 +196,34 @@ BondageFramework.Commands = BondageFramework.Commands || {};
     Game_BattlerBase.prototype.setTp = function(tp) {
         if (tp == null || isNaN(tp)) return;
         $.Holders.setTp.call(this, tp);
+    };
+
+    /********************* Rotate images when Ensnared *********************/
+
+    $.Holders.battleDrawFace = Window_BattleStatus.prototype.drawFace;
+    Window_BattleStatus.prototype.drawFace = function(fn, fi, x, y, width, height) {
+        const actor = StateOverlay.findActor(fn);
+        if (actor != null && actor.isStateAffected(672) && !actor.isStateAffected(46)) {
+            this._faceContents.bitmap.rotate();
+            $.Holders.battleDrawFace.call(this, fn, fi, x, y, width, height);
+            this._faceContents.bitmap.rollback();
+        } else {
+            $.Holders.battleDrawFace.call(this, fn, fi, x, y, width, height);
+        }
+    }
+
+    Bitmap.prototype.rotate = function() {
+        const centerX = this.width / 2;
+        const centerY = this.height / 2;
+        this._context.translate(centerX, centerY);
+        this._context.rotate(Math.PI);
+        this._context.scale(-1, 1);
+        this._context.translate(-centerX, -centerY);
+        this._setDirty();
+    };
+
+    Bitmap.prototype.rollback = function() {
+        this._context.setTransform(1, 0, 0, 1, 0, 0);
     };
 
     /********************* Custom effects for affliction skills *********************/
