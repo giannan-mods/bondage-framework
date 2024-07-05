@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.8]
+
+### Added
+
+- Randomized the effect of traps in Alisha's house (when enabled).
+- Gianna Forest is now filled with snares set up by Lewd Bandits (when enabled).
+- Restraints may now appear as randomized loot from chests, when Random Treasure Mode is enabled.
+
+### Fixed
+
+- Blow Away and Jars of Wind can now properly target Defeated party members.
+- Leashed will correctly prevent escaping combat, and moving back in the party order.
+- Ensnared will apply Leashed on top of Bound, instead of mirroring its effects.
+- Enemies may now attempt to tie up a party member using a Ball Gag (when enabled).
+
 ## [0.0.7] - 2024-07-04
 
 ### Added

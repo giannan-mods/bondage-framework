@@ -1,6 +1,6 @@
 /*:
  * @author 1d51
- * @version 0.0.7
+ * @version 0.0.8
  * @plugindesc Custom code for the Bondage Framework mod.
  */
 
