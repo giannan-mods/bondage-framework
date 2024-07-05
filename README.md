@@ -29,6 +29,7 @@ The framework comes with a file named `config.json` that players can edit to ena
 - Toggle Disheartened, a new status effect that makes struggling out of restraints more difficult.
 - Toggle enemies such as the Lewd Bandit or the Forest Witch having skills that bind party members.
 - Toggle enemies such as the Lewd Bandit or the Mountain Barbarian having skills that hold onto party members.
+- Toggle finding traps in the overworld, and randomizing existing ones.
 
 Right now, all of them are disabled by default, to keep to the vanilla experience as much as possible. Feel free to enable whichever you feel like though.
 
