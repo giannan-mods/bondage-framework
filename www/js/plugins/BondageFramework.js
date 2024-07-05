@@ -150,6 +150,26 @@ BondageFramework.Commands = BondageFramework.Commands || {};
         if (command === 'RemoveLocked') $.Commands.removeLocked(args);
     };
 
+    /**************** Prevent Bondage and Cursed equipment optimization ****************/
+
+    Game_Actor.prototype.bestEquipItem = function(slotId) {
+        var etypeId = this.equipSlots()[slotId];
+        var items = $gameParty.equipItems().filter(function(item) {
+            return item.etypeId === etypeId && this.canEquip(item);
+        }, this);
+        var bestItem = null;
+        var bestPerformance = -1;
+        for (var i = 0; i < items.length; i++) {
+            if (items[i].atypeId === 60 || items[i].atypeId === 61) continue;
+            var performance = this.calcEquipItemPerformance(items[i]);
+            if (performance > bestPerformance) {
+                bestPerformance = performance;
+                bestItem = items[i];
+            }
+        }
+        return bestItem;
+    };
+
     /********************* Force action miss based on a switch *********************/
 
     Game_ActionResult.prototype.isHit = function() {
