@@ -19,8 +19,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Leashed will correctly prevent escaping combat, and moving back in the party order.
 - Ensnared will apply Leashed on top of Bound, instead of mirroring its effects.
 - Enemies may now attempt to tie up a party member using a Ball Gag (when enabled).
-- Bondage and Cursed equipment will no longer be equip when equipment is optimized.
-- Prevent cockrings from being worn unless one has a cock.
+- Bondage and Cursed equipment will no longer be equipped when equipment is optimized.
+- More aggressively prevent cockrings from being worn if one doesn't have a cock.
 
 ## [0.0.7] - 2024-07-04
 
