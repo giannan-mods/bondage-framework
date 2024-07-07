@@ -282,7 +282,8 @@
 					"id": 46
 				}
 			]
-		}, {
+		},
+		{
 			"name": "OverBallGag",
 			"mode": "append",
 			"priority": 100,

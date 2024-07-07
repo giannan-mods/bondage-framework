@@ -1,6 +1,6 @@
 /*:
  * @author 1d51
- * @version 0.0.8
+ * @version 0.0.9
  * @plugindesc Custom code for the Bondage Framework mod.
  */
 
@@ -123,6 +123,15 @@ BondageFramework.Commands = BondageFramework.Commands || {};
         }
     };
 
+    $.Commands.removeRandomAffliction = function (args) {
+        const actor = $gameActors.actor(args[0]);
+        const skills = actor.skills().filter(x => x.stypeId === 70);
+        if (skills.length === 0) return;
+
+        const randomIndex = Math.floor(Math.random() * skills.length);
+        actor.forgetSkill(skills[randomIndex].id);
+    }
+
     $.Holders.meetsSkillConditions = Game_BattlerBase.prototype.meetsSkillConditions;
     Game_BattlerBase.prototype.meetsSkillConditions = function(skill) {
         const locked = this.isStateAffected(666);
@@ -148,6 +157,7 @@ BondageFramework.Commands = BondageFramework.Commands || {};
     Game_Interpreter.prototype.pluginCommand = function(command, args) {
         $.Holders.pluginCommand.call(this, command, args)
         if (command === 'RemoveLocked') $.Commands.removeLocked(args);
+        else if (command === 'RemoveRandomAffliction') $.Commands.removeRandomAffliction(args);
     };
 
     /**************** Prevent Bondage and Cursed equipment optimization ****************/
@@ -271,6 +281,33 @@ BondageFramework.Commands = BondageFramework.Commands || {};
             }
         }
 
+        if (this.isSkill() && (this.item().id === 130 || this.item().id === 799)) {
+            // Suckler: Become Aroused when targeted by milking skills.
+            if (target.isActor() && target.hasSkill(1239)) {
+                if (target.isAlive()) {
+                    if (Math.random() < 0.1) target.addState(13);
+                    if (Math.random() < 0.1) target.addState(13);
+                }
+            }
+        }
+
+        if (this.isSkill() && (this.item().id === 378 || this.item().id === 379)) {
+            // Nurturer: Become Aroused when using milking skills.
+            if (this.subject().isActor() && this.subject().hasSkill(1238)) {
+                if (this.subject().isAlive()) {
+                    if (Math.random() < 0.1) this.subject().addState(13);
+                    if (Math.random() < 0.1) this.subject().addState(13);
+                }
+            }
+            // Suckler: Become Aroused when targeted by milking skills.
+            if (target.isActor() && target.hasSkill(1239)) {
+                if (target.isAlive()) {
+                    if (Math.random() < 0.1) target.addState(13);
+                    if (Math.random() < 0.1) target.addState(13);
+                }
+            }
+        }
+
         if (this.isSkill() && this.item().stypeId === 2) {
             // Honey Trap: Being targeted by Naughty skills causes damage to the enemy.
             if (target.isActor() && target.hasSkill(1219) && this.subject().isEnemy()) {
@@ -280,7 +317,6 @@ BondageFramework.Commands = BondageFramework.Commands || {};
                     this.subject().performCollapse();
                 }
             }
-
             // Servile: Become Aroused when targeting an Ally with a Naughty skill.
             if (target.isActor() && this.subject().isActor()) {
                 if (this.subject().hasSkill(1229) && this.subject().isAlive()) {

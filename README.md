@@ -25,11 +25,12 @@ The framework comes with a file named `config.json` that players can edit to ena
 - Make some class-specific skills inherent to the party member.
 - Toggle afflictions, a new type of skill passive for persistent negative effects.
 - Make it so some afflictions can be obtained passively, just by being exposed to certain situations.
+- Decide if you want a way out for Afflictions, in the shape of a new service by the Draining Witch.
 - Adds the Assist skill, which allows one to attempt to remove a restraint from a party member.
 - Toggle Disheartened, a new status effect that makes struggling out of restraints more difficult.
 - Toggle enemies such as the Lewd Bandit or the Forest Witch having skills that bind party members.
 - Toggle enemies such as the Lewd Bandit or the Mountain Barbarian having skills that hold onto party members.
-- Toggle finding traps in the overworld, and randomizing existing ones.
+- Toggle random traps appearing in the overworld. Also makes existing base game traps random.
 
 Right now, all of them are disabled by default, to keep to the vanilla experience as much as possible. Feel free to enable whichever you feel like though.
 
@@ -42,20 +43,13 @@ Right now, all of them are disabled by default, to keep to the vanilla experienc
 ## Contributing
 The mod can be made better with additional images. Any help would be appreciated!
 
-- Status images for Ashamed: Both for when naked (covering herself) and clothed (just generally abashed).
-- Status images for Bound: Simply both arms behind their back, images for when naked, and clothed.
+- Status images for Ashamed: Covering herself, looking around.
+- Status images for Bound: Simply both arms behind their back.
 - Status images for Muted: Mouth closed, and an angry or annoyed expression, looking at their mouth.
-- Status images for Blinded: Arms forward, trying to not trip and fall. Both naked and clothed.
+- Status images for Blinded: Arms forward, trying to not trip and fall.
 - Status images for Suffocating: Bluish face, eyes rolled up, etc. Nothing too extreme though.
 - Status images for Disheartened: Revisit the images currently in use, as they might not be appropriate.
 - Status images for Terrified: Simply a fearful face. Eyes wide open, mouth agape, etc.
-
-## Planned Features
-- Nakedness: Classes that have a body slot can be nude if said slot is empty.
-- Hidden Traps: Randomly positioned, barely visible traps in the overworld.
-- Affliction Removal: Add a way for Afflictions to be removed, through the Draining Witch in the Woodrot Forest.
-- Additional Afflictions: Such as Nurturer, Suckler, or Exhibitionist.
-- Additional restraints: Such as Straightjackets, Ring Gags, etc.
 
 ## Credits
 

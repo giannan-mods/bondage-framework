@@ -11,6 +11,10 @@
     "id": 2518,
     "value": false,
     "description": "Make it so some afflictions can be obtained passively, just by being exposed to certain situations."
+  },{
+    "id": 2525,
+    "value": false,
+    "description": "Decide if you want a way out for Afflictions, in the shape of a new service by the Draining Witch."
   }, {
     "id": 2514,
     "value": false,
@@ -30,6 +34,6 @@
   }, {
     "id": 2522,
     "value": false,
-    "description": "Toggle random traps appearing in the overworld. Also makes existing base game traps random"
+    "description": "Toggle random traps appearing in the overworld. Also makes existing base game traps random."
   }]
 }
