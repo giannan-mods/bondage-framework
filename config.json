@@ -1,43 +1,61 @@
 {
-  "switches": [{
-    "id": 2505,
-    "value": false,
-    "description": "Make some class-specific skills inherent to the party member."
-  }, {
-    "id": 2506,
-    "value": false,
-    "description": "Toggle afflictions, a new type of skill passive for persistent negative effects."
-  }, {
-    "id": 2518,
-    "value": false,
-    "description": "Make it so some afflictions can be obtained passively, just by being exposed to certain situations."
-  },{
-    "id": 2525,
-    "value": false,
-    "description": "Decide if you want a way out for Afflictions, in the shape of a new service by the Draining Witch."
-  }, {
-    "id": 2514,
-    "value": false,
-    "description": "Adds the Assist skill, which allows one to attempt to remove a restraint from a party member."
-  }, {
-    "id": 2515,
-    "value": false,
-    "description": "Toggle Disheartened, a new status effect that makes struggling out of restraints more difficult."
-  }, {
-    "id": 2516,
-    "value": false,
-    "description": "Toggle enemies such as the Lewd Bandit or the Forest Witch having skills that bind party members."
-  }, {
-    "id": 2517,
-    "value": false,
-    "description": "Toggle enemies such as the Lewd Bandit or the Mountain Barbarian having skills that hold onto party members."
-  }, {
-    "id": 2522,
-    "value": false,
-    "description": "Toggle random traps appearing in the overworld. Also makes existing base game traps random."
-  }, {
-    "id": 2526,
-    "value": false,
-    "description": "Toggle party members being naked when they have no armor equipped."
-  }]
+  "switches": [
+    {
+      "id": 2505,
+      "value": false,
+      "description": "Make some class-specific skills inherent to the party member."
+    },
+    {
+      "id": 2506,
+      "value": false,
+      "description": "Toggle afflictions, a new type of skill passive for persistent negative effects."
+    },
+    {
+      "id": 2518,
+      "value": false,
+      "description": "Make it so some afflictions can be obtained passively, just by being exposed to certain situations."
+    },
+    {
+      "id": 2525,
+      "value": false,
+      "description": "Decide if you want a way out for Afflictions, in the shape of a new service by the Draining Witch."
+    },
+    {
+      "id": 2514,
+      "value": false,
+      "description": "Adds the Assist skill, which allows one to attempt to remove a restraint from a party member."
+    },
+    {
+      "id": 2515,
+      "value": false,
+      "description": "Toggle Disheartened, a new status effect that makes struggling out of restraints more difficult."
+    },
+    {
+      "id": 2516,
+      "value": false,
+      "description": "Toggle enemies such as the Lewd Bandit or the Forest Witch having skills that bind party members."
+    },
+    {
+      "id": 2517,
+      "value": false,
+      "description": "Toggle enemies such as the Lewd Bandit or the Mountain Barbarian having skills that hold onto party members."
+    },
+    {
+      "id": 2522,
+      "value": false,
+      "description": "Toggle random traps appearing in the overworld. Also makes existing base game traps random."
+    },
+    {
+      "id": 2526,
+      "value": false,
+      "description": "Toggle party members being naked when they have no armor equipped."
+    }
+  ],
+  "variables": [
+    {
+      "id": 949,
+      "value": 10,
+      "description": "The % chance of getting an Affliction when conditions are met."
+    }
+  ]
 }
