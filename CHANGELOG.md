@@ -5,6 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0] - 2024-07-12
+
+### Added
+
+- Denial Belt now has an overlay and will be shown when equipped.
+
+- Toggle to make classes that have a body slot be nude, if said slot is empty.
+
+- New Afflictions:
+  - Orc Addict: Orcs will ravage you indefinitely, until they're defeated or combat ends.
+  - Crescendo: Aroused and Horny stacks are no longer removed with time.
+  - Horny Mommy: Gain Lust every turn when affected by Pregnant.
+  - Edging Enjoyer: Gain additional Lust every turn when affected by Denial.
+  - Tiny Tramp: Gain Lust every turn when affected by Mini.
+
+### Fixed
+
+- More thorough condition check for showing bondage overlays.
+
 ## [0.0.9] - 2024-07-07
 
 ### Added

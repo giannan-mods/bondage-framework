@@ -31,6 +31,7 @@ The framework comes with a file named `config.json` that players can edit to ena
 - Toggle enemies such as the Lewd Bandit or the Forest Witch having skills that bind party members.
 - Toggle enemies such as the Lewd Bandit or the Mountain Barbarian having skills that hold onto party members.
 - Toggle random traps appearing in the overworld. Also makes existing base game traps random.
+- Toggle party members being naked when they have no armor equipped.
 
 Right now, all of them are disabled by default, to keep to the vanilla experience as much as possible. Feel free to enable whichever you feel like though.
 
@@ -44,9 +45,9 @@ Right now, all of them are disabled by default, to keep to the vanilla experienc
 The mod can be made better with additional images. Any help would be appreciated!
 
 - Status images for Ashamed: Covering herself, looking around.
-- Status images for Bound: Simply both arms behind their back.
+- Status images for Bound: Simply both arms behind their back (Naked and clothed).
 - Status images for Muted: Mouth closed, and an angry or annoyed expression, looking at their mouth.
-- Status images for Blinded: Arms forward, trying to not trip and fall.
+- Status images for Blinded: Arms forward, trying to not trip and fall (Naked and clothed).
 - Status images for Suffocating: Bluish face, eyes rolled up, etc. Nothing too extreme though.
 - Status images for Disheartened: Revisit the images currently in use, as they might not be appropriate.
 - Status images for Terrified: Simply a fearful face. Eyes wide open, mouth agape, etc.

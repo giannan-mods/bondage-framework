@@ -35,5 +35,9 @@
     "id": 2522,
     "value": false,
     "description": "Toggle random traps appearing in the overworld. Also makes existing base game traps random."
+  }, {
+    "id": 2526,
+    "value": false,
+    "description": "Toggle party members being naked when they have no armor equipped."
   }]
 }
