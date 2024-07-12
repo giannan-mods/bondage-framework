@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Denial Belt now has an overlay and will be shown when equipped.
 
 - Toggle to make classes that have a body slot be nude, if said slot is empty.
+- Variable to configure how likely it is for a spontaneous Affliction to occur.
 
 - New Afflictions:
   - Orc Addict: Orcs will ravage you indefinitely, until they're defeated or combat ends.
