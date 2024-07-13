@@ -38,7 +38,7 @@
     {
       "id": 2517,
       "value": false,
-      "description": "Toggle enemies such as the Lewd Bandit or the Mountain Barbarian having skills that hold onto party members."
+      "description": "Toggle the Suffocating state, adding restraints and enemy skills that apply it to party members."
     },
     {
       "id": 2522,

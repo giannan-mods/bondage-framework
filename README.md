@@ -13,9 +13,11 @@ Only works on the base game's Normal difficulty!
 
 3. Bondage: New system that locks equipment in place. Things such as the Denial Belt, Slave Collar, Cursed Necklace, and Orgasm Belt, are now pieces of bondage that enemies may attempt to lock onto party members. They can be removed by struggling, with the assistance of other party members, or using a Lockpick, or Holy Water, depending on the restraint.
 
-4. Afflictions: A skill type dedicated to long-lasting (maybe even permanent) negative status effects. More and more passives will be added to the framework with time, so other mods can assign them based on their own criteria.
+4. Dialogue Replacements: Some states will change the way your party members speak, and they will be reflected on the image that accompanies said dialogue.
 
-5. Miscellaneous: Several other minor changes have been made to the base game, to make it more flexible for future mods, or just better (in my personal opinion).
+5. Afflictions: A skill type dedicated to long-lasting (maybe even permanent) negative status effects. More and more passives will be added to the framework with time, so other mods can assign them based on their own criteria.
+
+6. Miscellaneous: Several other minor changes have been made to the base game, to make it more flexible for future mods, or just better (in my personal opinion).
 
 You can see a complete breakdown of all additions and changes to the game in the `CHANGELOG.md` file.
 
@@ -29,7 +31,7 @@ The framework comes with a file named `config.json` that players can edit to ena
 - Adds the Assist skill, which allows one to attempt to remove a restraint from a party member.
 - Toggle Disheartened, a new status effect that makes struggling out of restraints more difficult.
 - Toggle enemies such as the Lewd Bandit or the Forest Witch having skills that bind party members.
-- Toggle enemies such as the Lewd Bandit or the Mountain Barbarian having skills that hold onto party members.
+- Toggle the Suffocating state, adding restraints and enemy skills that apply it to party members.
 - Toggle random traps appearing in the overworld. Also makes existing base game traps random.
 - Toggle party members being naked when they have no armor equipped.
 
@@ -61,3 +63,7 @@ Mod Author: 1d51
 Disheartened images: exi1987
 
 Harness Gag images: borpie
+
+Ball Hood images: [Veltrox101](https://www.deviantart.com/veltrox101/art/Inflatable-Ball-Hood-code-1063308220)
+
+Gas Mask images: [cloudsonthehorizon](https://www.deviantart.com/cloudsonthehorizon/art/Kisekae-gasmask-export-822024972)

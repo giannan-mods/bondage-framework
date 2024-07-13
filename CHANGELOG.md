@@ -5,11 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.1] - 2024-07-13
+
+### Added
+
+- Added the status journal entries for all new status effects.
+- The enemy holds toggle has been replaced with a toggle for the Suffocating status effect.
+- Incorporated and updated all [Giannan Faces](https://github.com/giannan-mods/giannan-faces) dialogue replacements.
+- Updated the cheat room to account for all the content added by the mod.
+
+- New equipment:
+  - Gas Mask: Suffocates the wearer.
+  - Ball Hood: Suffocates and blinds the wearer.
+
 ## [0.1.0] - 2024-07-12
 
 ### Added
 
 - Denial Belt now has an overlay and will be shown when equipped.
+- The default probability to obtain an Affliction spontaneously has been increased from 1% to 10%.
 
 - Toggle to make classes that have a body slot be nude, if said slot is empty.
 - Variable to configure how likely it is for a spontaneous Affliction to occur.
