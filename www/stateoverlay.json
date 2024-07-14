@@ -2,6 +2,7 @@
 	"inputs": [
 		{
 			"name": "OverLilinaNaked",
+			"character": "!LilinaN",
 			"mode": "combine",
 			"priority": 0,
 			"dxf": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
@@ -203,6 +204,7 @@
 		},
 		{
 			"name": "OverSinianNaked",
+			"character": "!SinianN",
 			"mode": "combine",
 			"priority": 0,
 			"dxf": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
@@ -399,6 +401,7 @@
 		},
 		{
 			"name": "OverSableNaked",
+			"character": "!SableN",
 			"mode": "combine",
 			"priority": 0,
 			"dxf": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
@@ -595,6 +598,7 @@
 		},
 		{
 			"name": "OverJylaNaked",
+			"character": "!JylaN",
 			"mode": "combine",
 			"priority": 0,
 			"dxf": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
@@ -791,6 +795,7 @@
 		},
 		{
 			"name": "OverNuanNaked",
+			"character": "!NuanN",
 			"mode": "combine",
 			"priority": 0,
 			"dxf": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
@@ -987,6 +992,7 @@
 		},
 		{
 			"name": "OverLWNaked",
+			"character": "!LWN",
 			"mode": "combine",
 			"priority": 0,
 			"dxf": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
@@ -1183,6 +1189,7 @@
 		},
 		{
 			"name": "OverAlishaNaked",
+			"character": "!AlishaN",
 			"mode": "combine",
 			"priority": 0,
 			"dxf": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
@@ -1379,6 +1386,7 @@
 		},
 		{
 			"name": "OverYterreNaked",
+			"character": "!YterreN",
 			"mode": "combine",
 			"priority": 0,
 			"dxf": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
@@ -1575,6 +1583,7 @@
 		},
 		{
 			"name": "OverAnnieNaked",
+			"character": "!AnnieHatN",
 			"mode": "combine",
 			"priority": 0,
 			"dxf": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
@@ -1771,6 +1780,7 @@
 		},
 		{
 			"name": "OverSamonaNaked",
+			"character": "!SamonaN",
 			"mode": "combine",
 			"priority": 0,
 			"dxf": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
@@ -1967,6 +1977,7 @@
 		},
 		{
 			"name": "OverWindNaked",
+			"character": "!WindGlassesN",
 			"mode": "combine",
 			"priority": 0,
 			"dxf": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
@@ -2163,6 +2174,7 @@
 		},
 		{
 			"name": "OverLilinaPink",
+			"character": "!LilinaPinkSlave",
 			"mode": "combine",
 			"priority": 0,
 			"dxf": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
@@ -2364,6 +2376,7 @@
 		},
 		{
 			"name": "OverSinianPink",
+			"character": "!SinianPinkSlave",
 			"mode": "combine",
 			"priority": 0,
 			"dxf": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
@@ -2560,6 +2573,7 @@
 		},
 		{
 			"name": "OverSablePink",
+			"character": "!SablePinkSlave",
 			"mode": "combine",
 			"priority": 0,
 			"dxf": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
@@ -2756,6 +2770,7 @@
 		},
 		{
 			"name": "OverJylaPink",
+			"character": "!JylaPinkSlave",
 			"mode": "combine",
 			"priority": 0,
 			"dxf": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
@@ -2952,6 +2967,7 @@
 		},
 		{
 			"name": "OverNuanPink",
+			"character": "!NuanPinkSlave",
 			"mode": "combine",
 			"priority": 0,
 			"dxf": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
@@ -3148,6 +3164,7 @@
 		},
 		{
 			"name": "OverLWPink",
+			"character": "!LWPinkSlave",
 			"mode": "combine",
 			"priority": 0,
 			"dxf": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
@@ -3344,6 +3361,7 @@
 		},
 		{
 			"name": "OverAlishaPink",
+			"character": "!AlishaPinkSlave",
 			"mode": "combine",
 			"priority": 0,
 			"dxf": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
@@ -3540,6 +3558,7 @@
 		},
 		{
 			"name": "OverYterrePink",
+			"character": "!YterrePinkSlave",
 			"mode": "combine",
 			"priority": 0,
 			"dxf": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
@@ -3736,6 +3755,7 @@
 		},
 		{
 			"name": "OverAnniePink",
+			"character": "!AnniePinkSlave",
 			"mode": "combine",
 			"priority": 0,
 			"dxf": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
@@ -3932,6 +3952,7 @@
 		},
 		{
 			"name": "OverSamonaPink",
+			"character": "!SamonaPinkSlave",
 			"mode": "combine",
 			"priority": 0,
 			"dxf": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
@@ -4128,6 +4149,7 @@
 		},
 		{
 			"name": "OverWindPink",
+			"character": "!WindPinkSlave",
 			"mode": "combine",
 			"priority": 0,
 			"dxf": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
@@ -4309,229 +4331,6 @@
 					"inclusive": false,
 					"type": "state",
 					"id": 46
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 29
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 31
-				}
-			]
-		},
-		{
-			"name": "OverBlindfold",
-			"mode": "append",
-			"priority": 50,
-			"dxf": [0, 2, 3, 0, 0, 0, 0, 0, 3, 1, 0],
-			"dyf": [0, 7, 0, -2, -1, 0, 0, 0, -2, -3, 0],
-			"dxp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-			"dyp": [0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 2],
-			"conditions": [
-				{
-					"inclusive": true,
-					"type": "armor",
-					"id": 357
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 39
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 46
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 118
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 367
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 394
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 141
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 142
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 143
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 149
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 34
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 107
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 29
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 31
-				}
-			]
-		},
-		{
-			"name": "OverDenialBelt",
-			"mode": "append",
-			"priority": 50,
-			"dxf": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-			"dyf": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-			"dxp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-			"dyp": [0, 0, 25, 15, 15, 10, 0, -40, 30, 20, 10],
-			"conditions": [
-				{
-					"inclusive": false,
-					"type": "contains",
-					"text": "Dnl"
-				},
-				{
-					"inclusive": true,
-					"type": "armor",
-					"id": 351
-				},
-				{
-					"inclusive": false,
-					"type": "actor",
-					"id": 8
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 39
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 46
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 118
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 367
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 394
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 34
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 107
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 29
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 31
-				}
-			]
-		},
-		{
-			"name": "OverDenialBeltShort",
-			"mode": "append",
-			"priority": 50,
-			"dxf": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-			"dyf": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-			"dxp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-			"dyp": [0, 0, 25, 15, 15, 10, 0, -40, 30, 20, 10],
-			"conditions": [
-				{
-					"inclusive": false,
-					"type": "contains",
-					"text": "Dnl"
-				},
-				{
-					"inclusive": true,
-					"type": "armor",
-					"id": 351
-				},
-				{
-					"inclusive": true,
-					"type": "actor",
-					"id": 8
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 39
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 46
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 118
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 367
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 394
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 34
-				},
-				{
-					"inclusive": false,
-					"type": "state",
-					"id": 107
 				},
 				{
 					"inclusive": false,
@@ -5403,6 +5202,87 @@
 			]
 		},
 		{
+			"name": "OverBlindfold",
+			"mode": "append",
+			"priority": 50,
+			"dxf": [0, 2, 3, 0, 0, 0, 0, 0, 3, 1, 0],
+			"dyf": [0, 7, 0, -2, -1, 0, 0, 0, -2, -3, 0],
+			"dxp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+			"dyp": [0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 2],
+			"conditions": [
+				{
+					"inclusive": true,
+					"type": "armor",
+					"id": 357
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 39
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 46
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 118
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 367
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 394
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 141
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 142
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 143
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 149
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 34
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 107
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 29
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 31
+				}
+			]
+		},
+		{
 			"name": "OverBallGag",
 			"mode": "append",
 			"priority": 100,
@@ -5484,9 +5364,150 @@
 			]
 		},
 		{
+			"name": "OverDenialBelt",
+			"mode": "append",
+			"priority": 50,
+			"dxf": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+			"dyf": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+			"dxp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+			"dyp": [0, 0, 25, 15, 15, 10, 0, -40, 30, 20, 10],
+			"conditions": [
+				{
+					"inclusive": false,
+					"type": "contains",
+					"text": "Dnl"
+				},
+				{
+					"inclusive": true,
+					"type": "armor",
+					"id": 351
+				},
+				{
+					"inclusive": false,
+					"type": "actor",
+					"id": 8
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 39
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 46
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 118
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 367
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 394
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 34
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 107
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 29
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 31
+				}
+			]
+		},{
+			"name": "OverDenialBeltShort",
+			"mode": "append",
+			"priority": 50,
+			"dxf": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+			"dyf": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+			"dxp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+			"dyp": [0, 0, 25, 15, 15, 10, 0, -40, 30, 20, 10],
+			"conditions": [
+				{
+					"inclusive": false,
+					"type": "contains",
+					"text": "Dnl"
+				},
+				{
+					"inclusive": true,
+					"type": "armor",
+					"id": 351
+				},
+				{
+					"inclusive": true,
+					"type": "actor",
+					"id": 8
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 39
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 46
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 118
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 367
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 394
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 34
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 107
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 29
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 31
+				}
+			]
+		},
+		{
 			"name": "OverGasMask",
 			"mode": "append",
-			"priority": 150,
+			"priority": 200,
 			"dxf": [0, 2, 3, 0, 0, 0, 0, 0, 3, 1, 0],
 			"dyf": [0, 6, 0, 0, 2, 0, 0, 0, 0, 0, 0],
 			"dxp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -5567,7 +5588,7 @@
 		{
 			"name": "OverBallHood",
 			"mode": "append",
-			"priority": 150,
+			"priority": 200,
 			"dxf": [0, 0, 0, 1, 1, 1, 0, 1, 3, 1, 0],
 			"dyf": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 			"dxp": [0, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0],

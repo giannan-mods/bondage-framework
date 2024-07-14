@@ -1,6 +1,6 @@
 /*:
  * @author 1d51
- * @version 0.0.9
+ * @version 0.1.0
  * @plugindesc Use custom overlays based on actor states
  * @help
  * ============================================================================
@@ -207,6 +207,33 @@ StateOverlay.Holders = StateOverlay.Holders || {};
             $.Holders.drawFace.call(this, append[i]["name"], index, x + dxf, y + dyf, wf || w, hf || h);
         }
     };
+
+    /**************** Custom code for OoG to load dynamic character sprites ****************/
+
+    $.Holders.createCharacters = Spriteset_Map.prototype.createCharacters;
+    Spriteset_Map.prototype.createCharacters = function() {
+        $.Holders.createCharacters.call(this);
+        $gameSwitches.setValue(1257, false);
+    };
+
+    $.Holders.isImageChanged = Sprite_Character.prototype.isImageChanged;
+    Sprite_Character.prototype.isImageChanged = function() {
+        return $.Holders.isImageChanged.call(this) || $gameSwitches.value(1257);
+    };
+
+    Sprite_Character.prototype.setCharacterBitmap = function() {
+        const actor = StateOverlay.findActor(this._characterName);
+        const [prepend, append, replace] = StateOverlay.findOverlays(actor);
+        if (replace.length > 0 && replace[replace.length - 1]["character"] != null) {
+            this.bitmap = ImageManager.loadCharacter(replace[replace.length - 1]["character"]);
+            this._isBigCharacter = ImageManager.isBigCharacter(replace[replace.length - 1]["character"]);
+        } else {
+            this.bitmap = ImageManager.loadCharacter(this._characterName);
+            this._isBigCharacter = ImageManager.isBigCharacter(this._characterName);
+        }
+    };
+
+    /************************************************************************************/
 
     if (Imported.YEP_BattleStatusWindow) {
         Window_BattleStatus.prototype.customDrawFace = function(n, fi, sw, sh, dx, dy) {
