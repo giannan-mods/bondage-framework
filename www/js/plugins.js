@@ -98,6 +98,7 @@ var $plugins =
 {"name":"WikiDiscord","status":true,"description":"Custom made plugin for OoG.","parameters":{}},
 {"name":"MIZU_ExtraMapsFix","status":true,"description":"(v1.0) Allows the proper usage of self switches with Zeriab ExtraMaps","parameters":{}},
 {"name":"SSG_DifficultySetting","status":true,"description":"Add difficulty feature on your game.\r\n<SSG_DifficultySetting>","parameters":{"Show Difficulty Option":"true","Default Difficulty":"1"}},
+{"name":"CaeX_YEPDeadOrAlive","status":true,"description":"v1.1 - Compatibility patch for Yanfly's Battle Engine Core and Kadokawa's DeadOrAliveItem.","parameters":{}},
 {"name":"StateOverlay","status":true,"description":"Use custom overlays based on actor states","parameters":{}},
 {"name":"StateText","status":true,"description":"Change dialog text based on actor states","parameters":{}},
 {"name":"BondageFramework","status":true,"description":"Custom code for the Bondage Framework mod.","parameters":{}}
