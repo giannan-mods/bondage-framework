@@ -34,6 +34,7 @@ The framework comes with a file named `config.json` that players can edit to ena
 - Toggle the Suffocating state, adding restraints and enemy skills that apply it to party members.
 - Toggle random traps appearing in the overworld. Also makes existing base game traps random.
 - Toggle party members being naked when they have no armor equipped.
+- Gives the Hypnotist the ability to apply mind Afflictions.
 
 Right now, all of them are disabled by default, to keep to the vanilla experience as much as possible. Feel free to enable whichever you feel like though.
 
