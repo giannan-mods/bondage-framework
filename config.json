@@ -49,6 +49,11 @@
       "id": 2526,
       "value": false,
       "description": "Toggle party members being naked when they have no armor equipped."
+    },
+    {
+      "id": 2528,
+      "value": false,
+      "description": "Gives the Hypnotist the ability to apply mind Afflictions."
     }
   ],
   "variables": [
@@ -56,6 +61,11 @@
       "id": 949,
       "value": 10,
       "description": "The % chance of getting an Affliction when conditions are met."
+    },
+    {
+      "id": 950,
+      "value": 20,
+      "description": "The % chance of a trap being present in the map on travel."
     }
   ]
 }

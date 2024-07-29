@@ -2189,8 +2189,8 @@
 				},
 				{
 					"inclusive": true,
-					"type": "armor",
-					"id": 350
+					"type": "state",
+					"id": 674
 				},
 				{
 					"inclusive": false,
@@ -2391,8 +2391,8 @@
 				},
 				{
 					"inclusive": true,
-					"type": "armor",
-					"id": 350
+					"type": "state",
+					"id": 674
 				},
 				{
 					"inclusive": false,
@@ -2588,8 +2588,8 @@
 				},
 				{
 					"inclusive": true,
-					"type": "armor",
-					"id": 350
+					"type": "state",
+					"id": 674
 				},
 				{
 					"inclusive": false,
@@ -2785,8 +2785,8 @@
 				},
 				{
 					"inclusive": true,
-					"type": "armor",
-					"id": 350
+					"type": "state",
+					"id": 674
 				},
 				{
 					"inclusive": false,
@@ -2982,8 +2982,8 @@
 				},
 				{
 					"inclusive": true,
-					"type": "armor",
-					"id": 350
+					"type": "state",
+					"id": 674
 				},
 				{
 					"inclusive": false,
@@ -3179,8 +3179,8 @@
 				},
 				{
 					"inclusive": true,
-					"type": "armor",
-					"id": 350
+					"type": "state",
+					"id": 674
 				},
 				{
 					"inclusive": false,
@@ -3376,8 +3376,8 @@
 				},
 				{
 					"inclusive": true,
-					"type": "armor",
-					"id": 350
+					"type": "state",
+					"id": 674
 				},
 				{
 					"inclusive": false,
@@ -3573,8 +3573,8 @@
 				},
 				{
 					"inclusive": true,
-					"type": "armor",
-					"id": 350
+					"type": "state",
+					"id": 674
 				},
 				{
 					"inclusive": false,
@@ -3770,8 +3770,8 @@
 				},
 				{
 					"inclusive": true,
-					"type": "armor",
-					"id": 350
+					"type": "state",
+					"id": 674
 				},
 				{
 					"inclusive": false,
@@ -3967,8 +3967,8 @@
 				},
 				{
 					"inclusive": true,
-					"type": "armor",
-					"id": 350
+					"type": "state",
+					"id": 674
 				},
 				{
 					"inclusive": false,
@@ -4164,8 +4164,8 @@
 				},
 				{
 					"inclusive": true,
-					"type": "armor",
-					"id": 350
+					"type": "state",
+					"id": 674
 				},
 				{
 					"inclusive": false,
