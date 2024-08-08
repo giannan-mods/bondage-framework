@@ -1,6 +1,6 @@
 /*:
  * @author 1d51
- * @version 0.1.2
+ * @version 0.1.3
  * @plugindesc Custom code for the Bondage Framework mod.
  */
 
@@ -170,6 +170,7 @@ BondageFramework.Commands = BondageFramework.Commands || {};
         var bestItem = null;
         var bestPerformance = -1;
         for (var i = 0; i < items.length; i++) {
+            if (DataManager.isArmor(items[i]) && items[i].id === 353) continue;
             if (items[i].atypeId === 60 || items[i].atypeId === 61) continue;
             var performance = this.calcEquipItemPerformance(items[i]);
             if (performance > bestPerformance) {
