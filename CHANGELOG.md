@@ -9,11 +9,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Out of the box compatibility with Trinity and Charlotte (Bondage Framework must be loaded after their mods).
+- Out of the box compatibility with Trinity and Charlotte.
   - The compatibility might be compromised if their mods update to a new version.
-  - The Stickers mod requires an additional patch to be installed for it to work.
+  - Both mods require an additional patch to be installed to fully work.
+  - Bondage Framework must be loaded after both of their mods.
+  - The patches must be loaded after Bondage Framework.
 
 - You can now find the Enthralling Hypnotist in the cheat room, she can make party members into Thralls.
+
+### Fixed
+
+- Prevent Thralls from being called by the enemy when there's no space for them on their side.
 
 ## [0.1.3] - 2024-08-08
 
