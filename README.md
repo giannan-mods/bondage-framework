@@ -61,6 +61,8 @@ Game Creator: [Vhiel](https://twitter.com/shvhiel)
 
 Mod Author: 1d51
 
+Trinity images: Blueset
+
 Charlotte images: Mika
 
 Pink Slave images: Quba
