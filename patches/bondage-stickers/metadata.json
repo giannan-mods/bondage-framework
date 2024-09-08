@@ -1,0 +1,13 @@
+{
+	"name": "Bondage Stickers",
+	"version": "0.0.3",
+	"dependencies": [
+		{"name": "Bondage Framework"}, 
+		{"name": "Stickers Mod"}
+	],
+	"incompatible": [],
+	"overrides": {
+		"data_Normal/Classes.json": ["note"],
+		"data_Normal/Skills.json": [186]
+	}
+}

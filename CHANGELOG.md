@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.4] - 2024-09-08
+
+### Added
+
+- Out of the box compatibility with Trinity and Charlotte (Bondage Framework must be loaded after their mods).
+  - The compatibility might be compromised if their mods update to a new version.
+  - The Stickers mod requires an additional patch to be installed for it to work.
+
+- You can now find the Enthralling Hypnotist in the cheat room, she can make party members into Thralls.
+
 ## [0.1.3] - 2024-08-08
 
 ### Fixed

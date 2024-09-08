@@ -61,6 +61,10 @@ Game Creator: [Vhiel](https://twitter.com/shvhiel)
 
 Mod Author: 1d51
 
+Charlotte images: Mika
+
+Pink Slave images: Quba
+
 Disheartened images: exi1987
 
 Harness Gag images: borpie

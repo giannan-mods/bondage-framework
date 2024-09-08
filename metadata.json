@@ -1,10 +1,10 @@
 {
 	"name": "Bondage Framework",
-	"version": "0.1.3",
+	"version": "0.1.4",
 	"dependencies": [],
 	"incompatible": [],
 	"overrides": {
-		"data_Normal/CommonEvents.json": [6, 11, 20, 95],
+		"data_Normal/CommonEvents.json": [6, 20, 95],
 		"data_Normal/Enemies.json": [18],
 		"data_Normal/Items.json": [8, 15, 43, 97],
 		"data_Normal/Skills.json": [27, 304, 626, 642, 643, 644, 645, 646, 647, 648, 649, 954, 955, 1118]

@@ -1,6 +1,6 @@
 /*:
  * @author 1d51
- * @version 0.1.0
+ * @version 0.1.1
  * @plugindesc Use custom overlays based on actor states
  * @help
  * ============================================================================
@@ -123,37 +123,93 @@ StateOverlay.Holders = StateOverlay.Holders || {};
     };
 
     $.unpackParameters = function (actor, object) {
-        const dxf = object["dxf"] != null &&
-                actor._actorId - 1 < object["dxf"].length
-            ? object["dxf"][actor._actorId - 1] : 0;
+        let dxf = 0;
+        if (object["dxf"] != null) {
+            if (Array.isArray(object["dxf"])) {
+                if (actor._actorId - 1 < object["dxf"].length) {
+                    dxf = object["dxf"][actor._actorId - 1];
+                }
+            } else {
+                dxf = object["dxf"]
+            }
+        }
 
-        const dyf = object["dyf"] != null &&
-                actor._actorId - 1 < object["dyf"].length
-            ? object["dyf"][actor._actorId - 1] : 0;
+        let dyf = 0;
+        if (object["dyf"] != null) {
+            if (Array.isArray(object["dyf"])) {
+                if (actor._actorId - 1 < object["dyf"].length) {
+                    dyf = object["dyf"][actor._actorId - 1];
+                }
+            } else {
+                dyf = object["dyf"]
+            }
+        }
 
-        const dxp = object["dxp"] != null &&
-                actor._actorId - 1 < object["dxp"].length
-            ? object["dxp"][actor._actorId - 1] : 0;
+        let dxp = 0;
+        if (object["dxp"] != null) {
+            if (Array.isArray(object["dxp"])) {
+                if (actor._actorId - 1 < object["dxp"].length) {
+                    dxp = object["dxp"][actor._actorId - 1];
+                }
+            } else {
+                dxp = object["dxp"]
+            }
+        }
 
-        const dyp = object["dyp"] != null &&
-                actor._actorId - 1 < object["dyp"].length
-            ? object["dyp"][actor._actorId - 1] : 0;
+        let dyp = 0;
+        if (object["dyp"] != null) {
+            if (Array.isArray(object["dyp"])) {
+                if (actor._actorId - 1 < object["dyp"].length) {
+                    dyp = object["dyp"][actor._actorId - 1];
+                }
+            } else {
+                dyp = object["dyp"]
+            }
+        }
 
-        const wf = object["wf"] != null &&
-                actor._actorId - 1 < object["wf"].length
-            ? object["wf"][actor._actorId - 1] : 0;
+        let wf = 0;
+        if (object["wf"] != null) {
+            if (Array.isArray(object["wf"])) {
+                if (actor._actorId - 1 < object["wf"].length) {
+                    wf = object["wf"][actor._actorId - 1];
+                }
+            } else {
+                wf = object["wf"]
+            }
+        }
 
-        const hf = object["hf"] != null &&
-                actor._actorId - 1 < object["hf"].length
-            ? object["hf"][actor._actorId - 1] : 0;
+        let hf = 0;
+        if (object["hf"] != null) {
+            if (Array.isArray(object["hf"])) {
+                if (actor._actorId - 1 < object["hf"].length) {
+                    hf = object["hf"][actor._actorId - 1];
+                }
+            } else {
+                hf = object["hf"]
+            }
+        }
 
-        const wp = object["wp"] != null &&
-                actor._actorId - 1 < object["wp"].length
-            ? object["wp"][actor._actorId - 1] : 0;
+        let wp = 0;
+        if (object["wp"] != null) {
+            if (Array.isArray(object["wp"])) {
+                if (actor._actorId - 1 < object["wp"].length) {
+                    wp = object["wp"][actor._actorId - 1];
+                }
+            } else {
+                wp = object["wp"]
+            }
+        }
 
-        const hp = object["hp"] != null &&
-                actor._actorId - 1 < object["hp"].length
-            ? object["hp"][actor._actorId - 1] : 0;
+        let hp = 0;
+        if (object["hp"] != null) {
+            if (Array.isArray(object["hp"])) {
+                if (actor._actorId - 1 < object["hp"].length) {
+                    hp = object["hp"][actor._actorId - 1];
+                }
+            } else {
+                hp = object["hp"]
+            }
+        }
 
         return [dxf, dyf, dxp, dyp, wf, hf, wp, hp];
     }
