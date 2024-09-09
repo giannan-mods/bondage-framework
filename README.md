@@ -44,17 +44,6 @@ Right now, all of them are disabled by default, to keep to the vanilla experienc
 2. Unzip and drop the folder into the `mods` folder.
 3. Launch the game and activate the mod.
 
-## Contributing
-The mod can be made better with additional images. Any help would be appreciated!
-
-- Status images for Ashamed: Covering herself, looking around.
-- Status images for Bound: Simply both arms behind their back (Naked and clothed).
-- Status images for Muted: Mouth closed, and an angry or annoyed expression, looking at their mouth.
-- Status images for Blinded: Arms forward, trying to not trip and fall (Naked and clothed).
-- Status images for Suffocating: Bluish face, eyes rolled up, etc. Nothing too extreme though.
-- Status images for Disheartened: Revisit the images currently in use, as they might not be appropriate.
-- Status images for Terrified: Simply a fearful face. Eyes wide open, mouth agape, etc.
-
 ## Credits
 
 Game Creator: [Vhiel](https://twitter.com/shvhiel)
@@ -70,6 +59,8 @@ Pink Slave images: Quba
 Disheartened images: exi1987
 
 Harness Gag images: borpie
+
+Plug Gag images [Animepunk91](https://www.deviantart.com/animepunk91/art/Kisekae-2-Gag-Props-594698171)
 
 Ball Hood images: [Veltrox101](https://www.deviantart.com/veltrox101/art/Inflatable-Ball-Hood-code-1063308220)
 

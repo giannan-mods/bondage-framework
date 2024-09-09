@@ -5,7 +5,6 @@
 		{"name": "Bondage Framework"}, 
 		{"name": "Gianna Recruitment"}
 	],
-	"incompatible": [],
 	"overrides": {
 		"data_Normal/Classes.json": ["note"]
 	}

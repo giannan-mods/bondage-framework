@@ -525,6 +525,268 @@
 			]
 		},
 		{
+			"name": "Gagged (CA)",
+			"priority": 50,
+			"conditions": [
+				{
+					"inclusive": true,
+					"type": "armor",
+					"id": 360
+				},
+				{
+					"inclusive": true,
+					"type": "random",
+					"value": 0.2
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 39
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 46
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 118
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 367
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 394
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 141
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 142
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 143
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 149
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 34
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 107
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 29
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 31
+				}
+			],
+			"replacements": [
+				{
+					"source": "([\\s\\S]*?)(\\.*\\?*!*)$",
+					"target": "MmmmMmmMMmm$2<br>\\}\\lsv[0]$1$2",
+					"modifiers": "",
+					"chance": 1
+				}
+			]
+		},
+		{
+			"name": "Gagged (CB)",
+			"priority": 50,
+			"conditions": [
+				{
+					"inclusive": true,
+					"type": "armor",
+					"id": 360
+				},
+				{
+					"inclusive": true,
+					"type": "random",
+					"value": 0.2
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 39
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 46
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 118
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 367
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 394
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 141
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 142
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 143
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 149
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 34
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 107
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 29
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 31
+				}
+			],
+			"replacements": [
+				{
+					"source": "([\\s\\S]*?)(\\.*\\?*!*)$",
+					"target": "Mmm mmMm... mmmm$2<br>\\}\\lsv[0]$1$2",
+					"modifiers": "",
+					"chance": 1
+				}
+			]
+		},
+		{
+			"name": "Gagged (CC)",
+			"priority": 50,
+			"conditions": [
+				{
+					"inclusive": true,
+					"type": "armor",
+					"id": 360
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 39
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 46
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 118
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 367
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 394
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 141
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 142
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 143
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 149
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 34
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 107
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 29
+				},
+				{
+					"inclusive": false,
+					"type": "state",
+					"id": 31
+				}
+			],
+			"replacements": [
+				{
+					"source": "([\\s\\S]*?)(\\.*\\?*!*)$",
+					"target": "Mmmmm mmm mMmm Mmm$2<br>\\}\\lsv[0]$1$2",
+					"modifiers": "",
+					"chance": 1
+				}
+			]
+		},
+		{
 			"name": "Soul Golem",
 			"priority": 100,
 			"conditions": [

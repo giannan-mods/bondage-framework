@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.5] - 2024-09-09
+
+### Added
+
+- More battles now allow for conversions to happen.
+- Replaced the Ball Hood with a Plug Gag.
+
+### Fixed
+
+- Improved state handling when Strangled or Ensnared.
+- The Enthralling Hypnotist is only available when Mind Games is toggled.
+- Thralls will only be hypnotised in battles where conversion is possible.
+- Properly reequip the Pink Leotard on Thralls that manage to take it off.
+- Better compatibility with Charlotte's Outfit equipment type.
+- Snares will no longer target inactive party members.
+
 ## [0.1.4] - 2024-09-08
 
 ### Added
