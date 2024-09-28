@@ -54,6 +54,11 @@
       "id": 2528,
       "value": false,
       "description": "Gives the Hypnotist the ability to apply mind Afflictions."
+    },
+    {
+      "id": 2529,
+      "value": false,
+      "description": "Disables the Traveler and her way too convenient shop."
     }
   ],
   "variables": [

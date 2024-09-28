@@ -1,6 +1,6 @@
 {
 	"name": "Bondage Framework",
-	"version": "0.1.5",
+	"version": "0.1.6",
 	"dependencies": [],
 	"incompatible": [],
 	"overrides": {
@@ -8,6 +8,10 @@
 		"data_Normal/Enemies.json": [18],
 		"data_Normal/Items.json": [8, 15, 43, 97],
 		"data_Normal/Skills.json": [27, 304, 626, 642, 643, 644, 645, 646, 647, 648, 649, 954, 955, 1118]
+	},
+	"redundant": {
+		"data_Normal/Map547.json": true,
+		"data_Normal/Map018.json": true
 	},
 	"randomize": true,
 	"track": true

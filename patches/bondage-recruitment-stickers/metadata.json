@@ -1,0 +1,16 @@
+{
+	"name": "Bondage Recruitment Stickers",
+	"version": "0.0.1",
+	"dependencies": [
+		{"name": "Bondage Framework"},
+		{"name": "Gianna Recruitment"},
+		{"name": "Stickers Mod"}
+	],
+	"overrides": {
+		"data_Normal/Classes.json": ["note"],
+		"data_Normal/Skills.json": [186],
+		"data_Normal/Map547.json": true,
+		"data_Normal/Map019.json": true,
+		"data_Normal/Map018.json": true
+	}
+}

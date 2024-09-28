@@ -1,6 +1,6 @@
 /*:
  * @author 1d51
- * @version 0.1.1
+ * @version 0.1.2
  * @plugindesc Use custom overlays based on actor states
  * @help
  * ============================================================================
@@ -391,6 +391,65 @@ StateOverlay.Holders = StateOverlay.Holders || {};
                 const [dxf, dyf, dxp, dyp, wf, hf, wp, hp] = StateOverlay.unpackParameters(actor, append[i]);
                 $.Holders.bustDrawFace.call(this, append[i]["name"], index, x + dxp, y + dyp, wp || w, hp || h);
             }
+        };
+    }
+
+    if (typeof Window_MizuBust === 'function') {
+        Window_MizuBust.prototype.customDrawFace = function(n, fi, sw, sh, dx, dy) {
+            const bn = n + "_" + (fi + 1);
+            const bitmap = ImageManager.loadPicture(bn);
+
+            if (bitmap.width <= 0) {
+                return setTimeout(this.customDrawFace.bind(this, n, fi, sw, sh, dx, dy), 50);
+            }
+
+            let ox = 0;
+            let oy = 0;
+            if (Galv.BM.offsets[bn]) {
+                ox = Galv.BM.offsets[bn][0] || 0;
+                oy = Galv.BM.offsets[bn][1] || 0;
+            }
+
+            sw = sw || 357;
+            sh = sh || 550;
+
+            const sx = bitmap.width / 2 - sw / 2 - ox;
+            const sy = oy;
+
+            dx = dx - 1;
+            this.contents.unlimitedBlt(bitmap, sx, sy, sw, sh, dx, dy);
+        };
+
+        $.Holders.mizuDrawBust =  Window_MizuBust.prototype.drawBust;
+        Window_MizuBust.prototype.drawBust = function(name, index, x, y, w, h) {
+            const actor = StateOverlay.findActor(name);
+            const [prepend, append, replace] = StateOverlay.findOverlays(actor);
+
+            for (let i = 0; i < prepend.length; i++) {
+                const [dxf, dyf, dxp, dyp, wf, hf, wp, hp] = StateOverlay.unpackParameters(actor, prepend[i]);
+                $.Holders.mizuDrawBust.call(this, prepend[i]["name"], index, x + dxp, y + dyp, wp || w, hp || h);
+            }
+            if (replace.length > 0) {
+                const [dxf, dyf, dxp, dyp, wf, hf, wp, hp] = StateOverlay.unpackParameters(actor, replace[replace.length - 1]);
+                $.Holders.mizuDrawBust.call(this, replace[replace.length - 1]["name"], index, x, y, w, h);
+                $.Holders.mizuDrawBust.call(this, replace[replace.length - 1]["name"], index, x, y, w, h);
+
+                if (replace[replace.length - 1]["mode"] === "combine") {
+                    this.customDrawFace(name, index, wp, hp, x + dxp, y + dyp);
+                }
+            } else {
+                $.Holders.mizuDrawBust.call(this, name, index, x, y, w, h);
+                $.Holders.mizuDrawBust.call(this, name, index, x, y, w, h);
+            }
+            for (let i = 0; i < append.length; i++) {
+                const [dxf, dyf, dxp, dyp, wf, hf, wp, hp] = StateOverlay.unpackParameters(actor, append[i]);
+                $.Holders.mizuDrawBust.call(this, append[i]["name"], index, x + dxp, y + dyp, wp || w, hp || h);
+            }
+        };
+
+        $.Holders.mizuDrawActorBust =  Window_MizuBust.prototype.drawActorBust;
+        Window_MizuBust.prototype.drawActorBust = function(actor, x, y, w, h) {
+            this.drawBust(actor.faceName(), actor.faceIndex(), x, y, w, h);
         };
     }
 

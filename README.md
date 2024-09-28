@@ -35,6 +35,7 @@ The framework comes with a file named `config.json` that players can edit to ena
 - Toggle random traps appearing in the overworld. Also makes existing base game traps random.
 - Toggle party members being naked when they have no armor equipped.
 - Gives the Hypnotist the ability to apply mind Afflictions.
+- Toggle the Traveler's shop being available to the party.
 
 Right now, all of them are disabled by default, to keep to the vanilla experience as much as possible. Feel free to enable whichever you feel like though.
 
@@ -62,6 +63,6 @@ Harness Gag images: borpie
 
 Plug Gag images [Animepunk91](https://www.deviantart.com/animepunk91/art/Kisekae-2-Gag-Props-594698171)
 
-Ball Hood images: [Veltrox101](https://www.deviantart.com/veltrox101/art/Inflatable-Ball-Hood-code-1063308220)
-
 Gas Mask images: [cloudsonthehorizon](https://www.deviantart.com/cloudsonthehorizon/art/Kisekae-gasmask-export-822024972)
+
+Prisoner Straightjacket images: [GunarmDyne](https://www.deviantart.com/gunarmdyne/art/Prisoner-Straitjacket-2-in-Kisekae-1072618533)

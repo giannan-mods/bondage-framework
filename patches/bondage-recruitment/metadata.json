@@ -5,6 +5,9 @@
 		{"name": "Bondage Framework"}, 
 		{"name": "Gianna Recruitment"}
 	],
+	"incompatible": [
+		{"name": "Stickers Mod"}
+	],
 	"overrides": {
 		"data_Normal/Classes.json": ["note"]
 	}
