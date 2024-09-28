@@ -32,6 +32,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Properly reequip the Pink Leotard on Thralls that manage to take it off.
 - Better compatibility with Charlotte's Outfit equipment type.
 - Snares will no longer target inactive party members.
+- Issue in the base game with conversion placeholders.
 
 ## [0.1.4] - 2024-09-08
 
