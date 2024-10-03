@@ -5,6 +5,30 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.7] - 2024-10-03
+
+### TODO
+
+- Update the patches with the new orgasm mechanic.
+
+### Added
+
+- Replaced the Steel Cuffs with Shibari Ropes.
+- Toggle to enable an alternative orgasm mechanic.
+
+- New Afflictions:
+  - Sensitive: Gain slightly more Lust from naughty attacks.
+  - Hypersensitive: Gain twice as much Lust from naughty attacks.
+  - Debauched: Gain five times more Lust from naughty attacks.
+  - Estrus: Lust will never go below half of its max value.
+
+### Fixed
+
+- Fix a bug in both of the Sticker mod patches.
+- Add missing bound Traveler image on dialogue.
+- Traveler now has a custom sprite when bound.
+- Add toggle logic for Traveler in mountains.
+
 ## [0.1.6] - 2024-09-27
 
 ### Added

@@ -9,8 +9,8 @@
 	"overrides": {
 		"data_Normal/Classes.json": ["note"],
 		"data_Normal/Skills.json": [186],
-		"data_Normal/Map547.json": true,
-		"data_Normal/Map019.json": true,
-		"data_Normal/Map018.json": true
+		"data_Normal/Map547.json": [3, 4, 21, 30, 36],
+		"data_Normal/Map019.json": [4],
+		"data_Normal/Map018.json": [8]
 	}
 }

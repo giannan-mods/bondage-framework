@@ -59,6 +59,11 @@
       "id": 2529,
       "value": false,
       "description": "Disables the Traveler and her way too convenient shop."
+    },
+    {
+      "id": 2530,
+      "value": false,
+      "description": "New orgasm mechanic, where cumming in combat does not mean defeat."
     }
   ],
   "variables": [

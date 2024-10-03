@@ -28,11 +28,6 @@
         {
           "inclusive": false,
           "type": "state",
-          "id": 1
-        },
-        {
-          "inclusive": false,
-          "type": "state",
           "id": 212
         },
         {
@@ -2594,11 +2589,6 @@
         {
           "inclusive": false,
           "type": "state",
-          "id": 1
-        },
-        {
-          "inclusive": false,
-          "type": "state",
           "id": 212
         },
         {
@@ -4954,6 +4944,2567 @@
           "inclusive": true,
           "type": "state",
           "id": 674
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 1
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 212
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 81
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 82
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 83
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 45
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 118
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 119
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 72
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 145
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 158
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 165
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 74
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 378
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 369
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 396
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 381
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 368
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 391
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 392
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 367
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 394
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 141
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 142
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 143
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 149
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 148
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 77
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 19
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 34
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 107
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 98
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 46
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 29
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 31
+        }
+      ]
+    },
+    {
+      "name": "OverLilinaShibari",
+      "character": "!LilinaN",
+      "mode": "combine",
+      "priority": 0,
+      "dxf": 2,
+      "dyf": 36,
+      "hf": 80,
+      "hp": 175,
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "actor",
+          "id": 1
+        },
+        {
+          "inclusive": true,
+          "type": "armor",
+          "id": 355
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 1
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 212
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 81
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 82
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 83
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 45
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 118
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 119
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 72
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 145
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 158
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 165
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 74
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 378
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 369
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 396
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 381
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 368
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 391
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 392
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 367
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 394
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 141
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 142
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 143
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 149
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 148
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 77
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 19
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 34
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 107
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 98
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 46
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 29
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 31
+        }
+      ]
+    },
+    {
+      "name": "OverSinianShibari",
+      "character": "!SinianN",
+      "mode": "combine",
+      "priority": 0,
+      "dxf": 2,
+      "dyf": 36,
+      "hf": 80,
+      "hp": 175,
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "actor",
+          "id": 2
+        },
+        {
+          "inclusive": true,
+          "type": "armor",
+          "id": 355
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 1
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 212
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 81
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 82
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 83
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 45
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 118
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 119
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 72
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 145
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 158
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 165
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 74
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 378
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 369
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 396
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 381
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 368
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 391
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 392
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 367
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 394
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 141
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 142
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 143
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 149
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 148
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 77
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 19
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 34
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 107
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 98
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 46
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 29
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 31
+        }
+      ]
+    },
+    {
+      "name": "OverSableShibari",
+      "character": "!SableN",
+      "mode": "combine",
+      "priority": 0,
+      "dxf": 2,
+      "dyf": 36,
+      "hf": 80,
+      "hp": 175,
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "actor",
+          "id": 3
+        },
+        {
+          "inclusive": true,
+          "type": "armor",
+          "id": 355
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 1
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 212
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 81
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 82
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 83
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 45
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 118
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 119
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 72
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 145
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 158
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 165
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 74
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 378
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 369
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 396
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 381
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 368
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 391
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 392
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 367
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 394
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 141
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 142
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 143
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 149
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 148
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 77
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 19
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 34
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 107
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 98
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 46
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 29
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 31
+        }
+      ]
+    },
+    {
+      "name": "OverJylaShibari",
+      "character": "!JylaN",
+      "mode": "combine",
+      "priority": 0,
+      "dxf": 2,
+      "dyf": 36,
+      "hf": 80,
+      "hp": 175,
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "actor",
+          "id": 4
+        },
+        {
+          "inclusive": true,
+          "type": "armor",
+          "id": 355
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 1
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 212
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 81
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 82
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 83
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 45
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 118
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 119
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 72
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 145
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 158
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 165
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 74
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 378
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 369
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 396
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 381
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 368
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 391
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 392
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 367
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 394
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 141
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 142
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 143
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 149
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 148
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 77
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 19
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 34
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 107
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 98
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 46
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 29
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 31
+        }
+      ]
+    },
+    {
+      "name": "OverNuanShibari",
+      "character": "!NuanN",
+      "mode": "combine",
+      "priority": 0,
+      "dxf": 2,
+      "dyf": 36,
+      "hf": 80,
+      "hp": 175,
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "actor",
+          "id": 5
+        },
+        {
+          "inclusive": true,
+          "type": "armor",
+          "id": 355
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 1
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 212
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 81
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 82
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 83
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 45
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 118
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 119
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 72
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 145
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 158
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 165
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 74
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 378
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 369
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 396
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 381
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 368
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 391
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 392
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 367
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 394
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 141
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 142
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 143
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 149
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 148
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 77
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 19
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 34
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 107
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 98
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 46
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 29
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 31
+        }
+      ]
+    },
+    {
+      "name": "OverLWShibari",
+      "character": "!LWN",
+      "mode": "combine",
+      "priority": 0,
+      "dxf": 2,
+      "dyf": 36,
+      "hf": 80,
+      "hp": 175,
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "actor",
+          "id": 6
+        },
+        {
+          "inclusive": true,
+          "type": "armor",
+          "id": 355
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 1
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 212
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 81
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 82
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 83
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 45
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 118
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 119
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 72
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 145
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 158
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 165
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 74
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 378
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 369
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 396
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 381
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 368
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 391
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 392
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 367
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 394
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 141
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 142
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 143
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 149
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 148
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 77
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 19
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 34
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 107
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 98
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 46
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 29
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 31
+        }
+      ]
+    },
+    {
+      "name": "OverAlishaShibari",
+      "character": "!AlishaN",
+      "mode": "combine",
+      "priority": 0,
+      "dxf": 2,
+      "dyf": 36,
+      "hf": 80,
+      "hp": 175,
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "actor",
+          "id": 7
+        },
+        {
+          "inclusive": true,
+          "type": "armor",
+          "id": 355
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 1
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 212
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 81
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 82
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 83
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 45
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 118
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 119
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 72
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 145
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 158
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 165
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 74
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 378
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 369
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 396
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 381
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 368
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 391
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 392
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 367
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 394
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 141
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 142
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 143
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 149
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 148
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 77
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 19
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 34
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 107
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 98
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 46
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 29
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 31
+        }
+      ]
+    },
+    {
+      "name": "OverYterreShibari",
+      "character": "!YterreN",
+      "mode": "combine",
+      "priority": 0,
+      "dxf": 2,
+      "dyf": 36,
+      "hf": 80,
+      "hp": 175,
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "actor",
+          "id": 8
+        },
+        {
+          "inclusive": true,
+          "type": "armor",
+          "id": 355
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 1
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 212
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 81
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 82
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 83
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 45
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 118
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 119
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 72
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 145
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 158
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 165
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 74
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 378
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 369
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 396
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 381
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 368
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 391
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 392
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 367
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 394
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 141
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 142
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 143
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 149
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 148
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 77
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 19
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 34
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 107
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 98
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 46
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 29
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 31
+        }
+      ]
+    },
+    {
+      "name": "OverAnnieShibari",
+      "character": "!AnnieHatN",
+      "mode": "combine",
+      "priority": 0,
+      "dxf": 2,
+      "dyf": 36,
+      "hf": 80,
+      "hp": 175,
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "actor",
+          "id": 9
+        },
+        {
+          "inclusive": true,
+          "type": "armor",
+          "id": 355
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 1
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 212
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 81
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 82
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 83
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 45
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 118
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 119
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 72
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 145
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 158
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 165
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 74
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 378
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 369
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 396
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 381
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 368
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 391
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 392
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 367
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 394
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 141
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 142
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 143
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 149
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 148
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 77
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 19
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 34
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 107
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 98
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 46
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 29
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 31
+        }
+      ]
+    },
+    {
+      "name": "OverSamonaShibari",
+      "character": "!SamonaN",
+      "mode": "combine",
+      "priority": 0,
+      "dxf": 2,
+      "dyf": 36,
+      "hf": 80,
+      "hp": 175,
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "actor",
+          "id": 10
+        },
+        {
+          "inclusive": true,
+          "type": "armor",
+          "id": 355
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 1
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 212
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 81
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 82
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 83
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 45
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 118
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 119
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 72
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 145
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 158
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 165
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 74
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 378
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 369
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 396
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 381
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 368
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 391
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 392
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 367
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 394
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 141
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 142
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 143
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 149
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 148
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 77
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 19
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 34
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 107
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 98
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 46
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 29
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 31
+        }
+      ]
+    },
+    {
+      "name": "OverWindShibari",
+      "character": "!WindGlassesN",
+      "mode": "combine",
+      "priority": 0,
+      "dxf": 2,
+      "dyf": 36,
+      "hf": 80,
+      "hp": 175,
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "actor",
+          "id": 11
+        },
+        {
+          "inclusive": true,
+          "type": "armor",
+          "id": 355
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 1
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 212
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 81
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 82
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 83
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 45
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 118
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 119
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 72
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 145
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 158
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 165
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 74
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 378
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 369
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 396
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 381
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 368
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 391
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 392
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 367
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 394
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 141
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 142
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 143
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 149
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 148
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 77
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 19
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 34
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 107
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 98
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 46
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 29
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 31
+        }
+      ]
+    },
+    {
+      "name": "OverCharlotteShibari",
+      "character": "!CharlotteN",
+      "mode": "combine",
+      "priority": 0,
+      "dxf": 2,
+      "dyf": 36,
+      "hf": 80,
+      "hp": 175,
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "actor",
+          "id": 50
+        },
+        {
+          "inclusive": true,
+          "type": "armor",
+          "id": 355
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 1
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 212
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 81
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 82
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 83
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 45
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 118
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 119
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 72
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 145
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 158
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 165
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 74
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 378
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 369
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 396
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 381
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 368
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 391
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 392
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 367
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 394
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 141
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 142
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 143
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 149
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 148
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 77
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 19
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 34
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 107
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 98
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 46
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 29
+        },
+        {
+          "inclusive": false,
+          "type": "state",
+          "id": 31
+        }
+      ]
+    },
+    {
+      "name": "OverTrinityShibari",
+      "character": "!TrinityN",
+      "mode": "combine",
+      "priority": 0,
+      "dxf": 2,
+      "dyf": 36,
+      "hf": 80,
+      "hp": 165,
+      "conditions": [
+        {
+          "inclusive": true,
+          "type": "actor",
+          "id": 48
+        },
+        {
+          "inclusive": true,
+          "type": "armor",
+          "id": 355
         },
         {
           "inclusive": false,
