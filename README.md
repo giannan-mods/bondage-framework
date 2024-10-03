@@ -66,3 +66,5 @@ Plug Gag images [Animepunk91](https://www.deviantart.com/animepunk91/art/Kisekae
 Gas Mask images: [cloudsonthehorizon](https://www.deviantart.com/cloudsonthehorizon/art/Kisekae-gasmask-export-822024972)
 
 Prisoner Straightjacket images: [GunarmDyne](https://www.deviantart.com/gunarmdyne/art/Prisoner-Straitjacket-2-in-Kisekae-1072618533)
+
+Shibari Ropes images: [RaspeenTrinity](https://www.deviantart.com/raspeentrinity/art/Shibari-exports-3-776027141)
